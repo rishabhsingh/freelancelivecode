@@ -1,0 +1,59 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+#index #page {
+  padding-top: 0 !important; }
+
+#header .quick-action {
+  margin-top: 25px; }
+  #header .quick-action .dropdown-toggle .title {
+    display: none; }
+  #header .quick-action #header_user_info {
+    display: none; }
+  #header .quick-action #cart .heading {
+    border: none;
+    min-width: 10px; }
+    #header .quick-action #cart .heading a {
+      padding: 0;
+      width: 25px;
+      height: 25px; }
+      #header .quick-action #cart .heading a > * {
+        display: none; }
+
+#pts-mainnav {
+  position: static !important; }
+
+.pts-megamenu .navbar-nav > li > a {
+  padding: 33px 10px 15px; }
+  .pts-megamenu .navbar-nav > li > a:after {
+    top: 95% !important; }
+
+#search_block_top.nav-search.open {
+  top: 0; }
+
+@media (max-width: 991px) {
+  #page {
+    padding-top: 0 !important; }
+
+  .pts-mainmenu {
+    margin-top: -60px; } }
+#pts-promotion, #pavo-promotion {
+  padding: 30px 0; }

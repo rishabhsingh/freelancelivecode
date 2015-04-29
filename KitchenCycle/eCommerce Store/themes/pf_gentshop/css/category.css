@@ -1,0 +1,115 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+h3.page-product-heading {
+  float: left;
+  color: #000;
+  text-transform: uppercase;
+  font: 600 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 8px 15px;
+  margin: 0 0 20px;
+  min-width: 120px;
+  position: relative;
+  background: #eeeeee; }
+  .rtl h3.page-product-heading {
+    float: right; }
+  h3.page-product-heading:before {
+    height: 0;
+    width: 0;
+    right: 45%;
+    top: 100%;
+    content: "";
+    position: absolute;
+    border: 4px solid transparent;
+    border-top-color: #eeeeee; }
+    .rtl h3.page-product-heading:before {
+      left: 45%;
+      right: auto; }
+
+h1#cart_title {
+  margin-top: 0;
+  font-size: 24px; }
+
+.content_scene_cat {
+  line-height: 20px;
+  margin: 0 0 15px 0;
+  clear: both; }
+  @media (max-width: 1199px) {
+    .content_scene_cat .content_scene_cat_bg {
+      padding: 10px 10px 10px 15px; }
+      .rtl .content_scene_cat .content_scene_cat_bg {
+        padding: 10px 15px 10px 10px; } }
+  .content_scene_cat .cat_desc {
+    margin-top: 10px; }
+  .content_scene_cat span.category-name {
+    font: 600 42px/51px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+    margin-bottom: 12px; }
+    @media (max-width: 1199px) {
+      .content_scene_cat span.category-name {
+        font-size: 25px;
+        line-height: 30px; } }
+  .content_scene_cat p {
+    margin-bottom: 0; }
+  .content_scene_cat a {
+    color: #000000; }
+    .content_scene_cat a:hover {
+      text-decoration: underline; }
+  .content_scene_cat .content_scene {
+    color: #555555; }
+    .content_scene_cat .content_scene .cat_desc {
+      padding-top: 20px; }
+      .content_scene_cat .content_scene .cat_desc a {
+        color: #777777; }
+        .content_scene_cat .content_scene .cat_desc a:hover {
+          color: #6cabd5; }
+
+/* ************************************************************************************************
+									Sub Categories Styles
+************************************************************************************************ */
+#subcategories {
+  padding: 15px;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: none; }
+  #subcategories .subcategory-heading {
+    display: inline-block;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 0;
+    color: #000000;
+    font-weight: 700;
+    display: block;
+    margin-top: 2px;
+    padding-right: 15px;
+    float: left; }
+  #subcategories ul > li {
+    position: relative; }
+    #subcategories ul > li:before {
+      background-color: #000;
+      content: "";
+      height: 4px;
+      left: 0;
+      position: absolute;
+      top: 45%;
+      width: 4px; }

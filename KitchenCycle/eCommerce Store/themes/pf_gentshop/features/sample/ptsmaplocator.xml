@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module><config>
+<PTSMAPL_DESCRIPTION><div class="contact-info">
+<div class="service">
+<h4 class="title">Main store</h4>
+<ul>
+<li>No 11 Sky Tower, Street<br /> name, Las Vegas, USA</li>
+<li>Tel: 012 345 6789</li>
+<li>Fax: 012 235 7588</li>
+<li><a href="#">support@yourstore.com</a></li>
+</ul>
+</div>
+<div class="social"><a class="google-plus" title="" href="#" data-original-title="Google-plus" data-placement="top" data-toggle="tooltip"><em class="icon-google-plus">&nbsp; </em> </a> <a class="facebook" title="" href="#" data-original-title="Facebook" data-placement="top" data-toggle="tooltip"> <em class="icon-facebook">&nbsp; </em> </a> <a class="twitter" title="" href="#" data-original-title="Twitter" data-placement="top" data-toggle="tooltip"> <em class="icon-twitter">&nbsp; </em> </a><a class="rss" title="" href="#" data-original-title="Rss" data-placement="top" data-toggle="tooltip"> <em class="icon-rss">&nbsp; </em> </a><a class="pinterest" title="" href="#" data-original-title="Pinterest" data-placement="top" data-toggle="tooltip"> <em class="icon-pinterest">&nbsp; </em> </a></div>
+</div></PTSMAPL_DESCRIPTION>
+<PTSMAPL_HEIGHT>500</PTSMAPL_HEIGHT>
+</config>
+<queries></queries>
+
+</module>

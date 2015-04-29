@@ -1,0 +1,58 @@
+$list: '';
+$i: 1;
+$list: ".col-xs-#{$i}, .col-sm-#{$i}, .col-md-#{$i}, .col-lg-#{$i}";
+@for $i from (1 + 1) through $grid-columns {
+    $list: "#{$list}, .col-xs-#{$i}, .col-sm-#{$i}, .col-md-#{$i}, .col-lg-#{$i}";
+}
+#pts-showcase, #columns, #top_column {
+    #{$list} {
+        position: relative;
+        // Prevent columns from collapsing when empty
+        min-height: 1px;
+        // Inner gutter via padding
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .row{
+        margin: 0;
+    }
+}  
+
+.topbar-v2, .mainnav-v2 {
+  .container {
+    padding-left: 40px;
+    padding-right: 20px;
+    @media (min-width: $screen-sm-min) {
+      width: 100%;
+    }
+    @media (min-width: $screen-md-min) {
+      width: 100%;
+    }
+    @media (min-width: $screen-lg-min) {
+      width: 100%;
+    }
+  }
+}
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $text-color;
+  background-color: $body-bg;
+
+}
+
+ #columns,  #pts-showcase, #top_column{
+  .container {
+    padding: 0;
+    @media (min-width: $screen-sm-min) {
+      width: 100%;
+    }
+    @media (min-width: $screen-md-min) {
+      width: 100%;
+    }
+    @media (min-width: $screen-lg-min) {
+      width: 100%;
+    }
+  }
+}

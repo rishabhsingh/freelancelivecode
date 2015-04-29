@@ -1,0 +1,417 @@
+
+/***/
+
+#social_block {
+  ul {
+    @include rtl-float-left();
+    width: 100%;
+    margin-top: 0px;
+    li {
+      @include rtl-float-left();
+      @include rtl-margin-right(10px);
+      text-align: center;
+      a {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        display: inline-block;
+        font-size: $font-size-base !important;
+        @include border-radius(3px);
+        position: relative;
+        z-index: 1;
+        span {
+          display: none;
+        }
+        &:before {
+          font-family: $font-icon;
+          border:1px solid rgba(255, 255, 255, 0.05);
+         @include border-radius(2px);
+          position: absolute;
+          width: 100%;
+          content: "";
+          height: 100%;
+          left: 0;
+        @include transition (all 0.3s ease 0s);
+        }
+        &:hover {
+          color: $white!important;
+          &:before {
+            @include border-radius(50%);
+          }
+        }
+      }
+      &.facebook {
+        a {
+          &:before {
+            content: "\f09a";
+          }
+          &:hover {
+            &:before {
+              background-color:$brand-primary; 
+            }
+          }
+        }
+      }
+      &.twitter {
+        a {
+          &:before {
+            content: "\f099";
+          } 
+          &:hover {
+            &:before {
+              background-color: $brand-info;
+            }
+          }
+        }
+      }
+      &.rss {
+        a {
+          &:before {
+            content: "\f09e";
+          }
+          &:hover {
+            &:before {
+              background-color: $brand-danger;
+            }
+          }
+        }
+      }
+      &.youtube {
+        a {
+          &:before {
+            content: "\f167";
+          }
+          &:hover {
+            &:before {
+              background-color: $brand-primary;
+            }
+          }
+        }
+      }
+      &.google-plus {
+        a {
+          &:before {
+            content: "\f0d5";
+          }
+          &:hover {
+            &:before {
+              background-color: $brand-success;
+            }
+          }
+        }
+      }
+      &.pinterest {
+        a {
+          &:before {
+            content: "\f0d2";
+          }
+          &:hover {
+            &:before {
+              background-color: $brand-warning;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.bottom-footer {
+  position: absolute;
+  bottom: 0;
+  @include rtl-left( 0);
+  text-align: center;
+}
+
+.block.pts-categoryproducts {
+	.tab-nav {
+		text-align: center;
+		width: 100%;
+		.nav {
+			display: inline-block;
+			width: auto;
+		}	
+	}
+}
+.producttabs .tab-nav {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+//CSS Modules
+//IMPORTANT - Internet Explorer can read 31 CSS files max. Some CSS have been put here and erased from their own module folder.
+
+//Block ADVERTISING
+.advertising_block {
+  width: 191px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+//footer
+.blockcategories_footer ul ul {
+  display: none !important;
+}
+
+// custom-footer
+#htmlcontent_footer {
+  .htmlcontent-home {
+    border-top: $main_border;
+  }
+}
+
+//Form validate
+.form-group {
+  &.form-error {
+    input, textarea {
+      border: 1px solid #f13340;
+      color: #f13340;
+      background-image: url('#{$image-theme-path}form-error.png');
+      background-repeat: no-repeat;
+      background-color: #fff1f2;
+      @include rtl-background-position-percent(5px,98%);
+    }
+  }
+  &.form-ok {
+    input, textarea {
+      border: 1px solid #46a74e;
+      color: #35b33f;
+      background: url('#{$image-theme-path}form-ok.png');
+      background-repeat: no-repeat;
+      background-color: #ddf9e1;
+      @include rtl-background-position-percent(5px,98%);
+    }
+  }
+  &.form-error, &.form-ok {
+    .form-control {
+      @include rtl-padding-right(30px);
+    }
+  }
+}
+
+//uniform
+.radio-inline, .checkbox {
+  @include rtl-padding-left(0);
+  .checker {
+    @include rtl-float-left();
+    span {
+      top: 0px;
+    }
+  }
+  div.radio {
+    display: inline-block;
+    span {
+      @include rtl-float-left();
+      top: 0px;
+    }
+  }
+}
+
+.fancybox-skin {
+  background: $light-background !important;
+}
+
+.fancybox-skin .fancybox-close {
+  top:0px;
+  @include rtl-right(0px);
+  width: 18px;
+  height: 18px;
+  background: none;
+  font-size: 18px;
+  line-height: 18px;
+  color: $base-text-color;
+  text-align: center;
+  &:hover {
+    color: $link-hover-color;
+  }
+  &:after {
+    content: "\f057";
+    font-family: $font-icon;
+  }
+}
+
+//Homepage pre-footer
+
+#cmsinfo_block {
+  em {
+    @include rtl-float-left();
+    width: 60px;
+    height: 60px;
+    margin: 3px 10px 0 0;
+    font-size: 30px;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+    background: lighten($base-heading-color, 10%);
+    @include border-radius(100px);
+    // max 991px
+    @media (max-width: $screen-sm-max) {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 20px;
+    }
+  }
+  .type-text {
+    overflow: hidden;
+  }
+  .cmsinfo_content {
+    @include rtl-float-left();
+    width: 100%;
+  }
+  h3 {
+    margin: 0 ;
+  }
+  ul {
+    li {
+      padding-bottom: 22px;
+      // max 1199px
+      @media (max-width: $screen-md-max) {
+        padding-bottom: 10px;
+      }
+      // max 991px
+      @media (max-width: $screen-sm-max) {
+        padding-bottom: 0;
+      }
+    }
+  }
+  p {
+  em {
+    background: none;
+    @include border-radius(0);
+    margin: 0;
+    font-size: 13px;
+    color: $text-color;
+    float: none;
+    height: inherit;
+    line-height: inherit;
+    @include rtl-text-align-left();
+    font-style: italic;
+  }
+   }
+}
+.facebook-fanbox {
+  overflow: hidden;
+}
+.ie8 {
+  #facebook_block,
+  #cmsinfo_block {
+    height: 344px;
+  }
+}
+
+
+//Social Sharing
+
+.btn-facebook {
+  i {
+    color: #435f9f;
+  }
+  &:hover {
+    color: white;
+    background-color: #435f9f;
+    border-color: darken(#435f9f, 15%);
+    i {
+      color: white;
+    }
+  }
+}
+
+.btn-twitter {
+  i {
+    color: #00aaf0;
+  }
+  &:hover {
+    color: white;
+    background-color: #00aaf0;
+    border-color: darken(#00aaf0, 15%);
+    i {
+      color: white;
+    }
+  }
+}
+
+.btn-google-plus {
+  i {
+    color: #e04b34;
+  }
+  &:hover {
+    color: white;
+    background-color: #e04b34;
+    border-color: darken(#e04b34, 15%);
+    i {
+      color: white;
+    }
+  }
+}
+
+.btn-pinterest {
+  i {
+    color: #ce1f21;
+  }
+  &:hover {
+    color: white;
+    background-color: #ce1f21;
+    border-color: darken(#ce1f21, 15%);
+    i {
+      color: white;
+    }
+  }
+}
+/** apply general product block **/
+.sidebar{
+	 .product-block{
+		@include clearfix();
+		@include rtl-text-align-left();  
+    background-color: transparent; 
+    border:  none;   	
+    margin-bottom: 15px;
+	 	.products-block-image {
+      @include rtl-margin-right(10px);
+    }
+    .price {
+      margin: 0;
+      font-size: 18px;
+    }
+	 }
+	 .product-label {
+	 	display: none;
+	 }
+   h3.name {
+     padding-bottom: 0;
+     margin-bottom: 5px;
+     &:after{
+      width: 0;
+     }
+   }
+}
+
+.box-info-product .action > div a:hover{
+  background: $theme-color;
+}
+
+#layered_block_left{
+  .hiddable a{
+    font-size: 12px;
+  }
+  .layered_subtitle{
+    color: $black;
+  }
+}  
+//theme skin
+.themecollection{
+  .theme-fullslide{
+    background: url('#{$image-theme-skin-path}theme-fullslide.jpg') no-repeat 0 0 ;
+  }
+  .theme-fullwidth{
+    background: url('#{$image-theme-skin-path}theme-fullwidth.jpg') no-repeat 0 0 ;
+  }
+  .theme-default{
+    background: url('#{$image-theme-skin-path}theme-default.jpg') no-repeat 0 0 ;
+  }
+}
+
+.maplocal .box-content{
+  background: $theme-color;
+} 

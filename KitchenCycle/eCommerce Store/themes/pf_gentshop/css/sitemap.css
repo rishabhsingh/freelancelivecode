@@ -1,0 +1,78 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+/******************************************************************
+					Sitemap Page Styles
+*******************************************************************/
+#sitemap .sitemap_block .page-subheading {
+  margin-bottom: 16px; }
+#sitemap .sitemap_block li {
+  line-height: 16px;
+  padding-bottom: 11px; }
+  #sitemap .sitemap_block li a:before {
+    content: "\f105";
+    display: inline-block;
+    font-family: "FontAwesome";
+    padding-right: 10px; }
+    .rtl #sitemap .sitemap_block li a:before {
+      padding-left: 10px;
+      padding-right: inherit; }
+  #sitemap .sitemap_block li a:hover {
+    font-weight: bold; }
+
+#listpage_content div.tree_top {
+  padding: 5px 0 0 27px; }
+  .rtl #listpage_content div.tree_top {
+    padding: 5px 27px 0 0; }
+  #listpage_content div.tree_top a:before {
+    content: "\f015";
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 20px;
+    color: #555555; }
+  #listpage_content div.tree_top a:hover:before {
+    color: #6cabd5; }
+#listpage_content ul.tree {
+  padding-left: 24px; }
+  .rtl #listpage_content ul.tree {
+    padding-right: 24px;
+    padding-left: inherit; }
+  #listpage_content ul.tree li {
+    margin: 0 0 0 15px;
+    padding: 5px 0 0 25px;
+    border-left: 1px solid #eee;
+    background: url(../img/sitemap-horizontal.png) no-repeat left 15px transparent; }
+    .rtl #listpage_content ul.tree li {
+      margin: 0 15px 0 0; }
+    .rtl #listpage_content ul.tree li {
+      padding: 5px 25px 0 0; }
+    .rtl #listpage_content ul.tree li {
+      border-right: 1px solid #eee;
+      border-left: inherit; }
+    #listpage_content ul.tree li a:hover {
+      font-weight: bold; }
+  #listpage_content ul.tree > li {
+    margin: 0 0 0 11px; }
+    .rtl #listpage_content ul.tree > li {
+      margin: 0 11px 0 0; }
+  #listpage_content ul.tree li.last {
+    border: medium none;
+    background: url(../img/sitemap-last.png) no-repeat 0px -4px transparent; }

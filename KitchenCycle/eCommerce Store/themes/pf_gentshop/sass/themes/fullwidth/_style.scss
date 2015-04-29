@@ -1,0 +1,143 @@
+body[class*="-home"] #content{
+	
+}
+#search_block_top.nav-search.open{
+	top: 80px;
+	@media(max-width:$screen-sm-max){
+		top:40px;
+	}
+}
+
+.sidebar .sidebar-content{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#product .product-info{
+  margin-left: 8.33333%;
+  margin-right: 8.33333%;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.product-detail{
+	> .product-info{
+		padding-left: 8.33333%;
+		padding-right: 8.33333%;
+		border-bottom: 1px solid $border-color;
+	}
+	.product-view{
+		margin-top: 50px;
+	}
+}
+.product-related .box-heading span{
+    &:before, &:after{
+    	background: $nocolor;
+    }
+}
+
+.product-block{
+	.action{
+		padding: 30px;
+		div.quick-view{
+			padding: 0 0 0 5px !important;
+		}
+	}
+	&:hover .image{
+		outline-offset: -30px;
+	}
+	.product-meta{
+		padding: 15px 10px 0px 10px;
+	}
+	.price-quick{
+		
+    	position: absolute;
+	    bottom: 90px;
+	    left: 35px;
+	    @include opacity(0);
+	    @include transition(all 0.35s);
+	}
+}
+
+.navbar-collapse{
+	padding: 0;
+}
+ul.nav-theme:before, ul.nav-theme:after{
+	background: none;
+} 
+.products-rows > .carousel-controls{
+	right: 60px;
+}
+
+.price{
+	font-size: 18px;
+}
+body.quickview{
+	.product-detail > .product-info{
+		padding-right: 0!important;
+	}
+}
+
+//typo
+.nav.nav-theme{
+	padding-bottom: 15px;
+}
+
+#pts-showcase .pts-custom, #top_column .pts-custom, #content .pts-custom{
+	padding: 0;
+}
+//static content
+#ptsstaticontent_topcolumn .img1 .description .button{
+	display: block!important;
+}
+//page
+#identity, #contact, #addresses, #address, #my-account, #history, #cms, #authentication, #order-slip{
+	#content{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+@media(max-width: $screen-sm-max){
+	#cavas_menu{
+		#pts-top-menu{
+			background: #fff;
+		}
+	}
+}	
+@media(max-width: $screen-md-max){
+	.mainnav-v2 .pts-megamenu .navbar-nav{
+		float: right!important;
+	}
+}
+#thumbs_list{
+	padding-right: 30px;
+}
+#pts-promotion, #pavo-promotion{
+	padding: 0;
+}
+#pts-showcase .pts-custom, #top_column .pts-custom, #content .pts-custom{
+	margin: 0;
+}
+.product-label{
+	top: 30px;
+	left: 35px;
+	&.sale-box{
+		right: 35px;
+	}
+}
+.page-quickview.product-info{
+	margin-left: 0!important;
+	margin-right: 0!important;
+	#thumbs_list{
+		padding-right: 0;
+	}
+}
+.addresses-lists > div{
+	padding: 15px 0;
+}
+#header.hide-bar #search_block_top{
+	top: 60px!important;
+}
+.staticontent-item .effect .description .button{
+	display: block;
+}

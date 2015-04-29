@@ -1,0 +1,152 @@
+.colorpicker{
+	z-index: 9999999!important;
+}
+
+.paneltool input, .paneltool select, .paneltool label, .paneltool button{
+	font-size: 11px;
+ 	padding: 3px 4px;
+}
+.paneltool input,
+.paneltool select {
+	width: 120px;
+}
+.paneltool .clear-bg span {
+	font-size: 15px;
+	margin-left: 5px;
+}
+.buttons-group{
+	padding: 6px 0
+}
+.pts-paneltool{
+	position: fixed;
+	top: 0px;
+	transition:all 0.6s;
+
+	border-right:solid 2px #CCC;
+	-webkit-box-shadow: 1px -1px 3px #888888;
+	box-shadow: 1px -1px 3px #888888;
+	z-index: 9999;
+	width: 350px;
+	height: 100%;
+	background: #FFF;
+	left: -351px;
+	font-size: 11px;
+
+}
+.pts-paneltool > .paneltool{
+	position: relative;
+	clear: both;
+	height: 100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+.pts-paneltool .pts-panelbutton{
+	border:solid 1px #CCC;
+	 background: #FFF;
+    padding: 16px 20px;
+    position: absolute;
+    right: -42px;
+    top: 30px;
+    border-left: none;
+    cursor: hand; cursor: pointer;
+     -webkit-box-shadow: 2px -1px 2px #888888;
+      box-shadow: 2px -1px 2px #888888;
+
+}
+
+.themechanger .pts-panelbutton{
+	top: 100px;
+}
+ .paneltool input{
+ 	border: solid 1px #CCC;
+ }
+
+ .paneltool label{
+ 	width: 120px;
+ 	font-size: 11px;
+ }
+
+.pts-paneltool.active{
+	left: 0;
+	z-index: 999999
+}
+
+.paneltool.active .panelbutton{
+	color: red
+}
+.paneltool.themetool{
+
+}
+.paneltool .panelcontent{
+	background: #FFF;
+
+}
+
+
+
+ .paneltool .panel-group .panel-heading{
+ 	padding: 4px 5px;
+ }
+ .paneltool .panel-title{
+ 	font-size: 11px;
+ 	padding: 2px 12px;
+ 	font-weight: bold;
+ }
+
+ .pts-customize{
+ 	height: 100%;
+ 	padding: 12px;
+ 	padding-right:20px;
+ }
+
+
+ .pts-customize .bi-wrapper > div{
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin: 5px 6px;
+	border: solid 1px #999;
+	cursor:hand; cursor:pointer;
+}
+ .pts-customize .bi-wrapper > div.active{
+	border-color:red;
+}
+
+/***/
+
+#customize-form .nav-tabs{
+	 	padding-top: 12px;
+}
+#customize-form .nav-tabs li{
+	margin: 0;
+	padding: 0!important
+}
+
+#customize-form .nav-tabs > li > a{
+	padding:5px 6px;
+	font-size: 11px;
+}
+#custom-accordionelements .panel,
+#custom-accordionselectors .panel{
+	margin-bottom: 5px;
+}
+/***/
+
+.themecollection > div{
+	background: #FFF;
+	height: 230px;
+	width: 140px;
+	border: solid 1px #CCC;
+	float: left;
+	padding: 4px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.themecollection > div.active{
+	border-color:red;
+}
+#panethemesettingfrm .pts-paneltitle {
+	font-size: 16px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,31 @@
+.buttons{
+  @include clearfix();
+  padding: 20px 0; 
+  .left{
+       float:left;
+  }
+  .right{
+      float:right;
+  }
+}
+.form-control{
+  @include box-shadow(none); 
+}
+.btn-outline-inverse{
+  @include button-variant-outline($white, $theme-color-default, $theme-color-default, $theme-color-secondary, $white , $theme-color-primary, 7px);
+} 
+.btn-outline{
+  @include button-variant-outline($black, $nocolor , $black , $white, $theme-color-default, $theme-color-default, 7px 10px);
+}
+.btn-outline-small{
+ @include button-variant-outline($white, $nocolor , $white , $white, $theme-color-default, $theme-color-default, 7px);
+}
+.btn-outline-black{
+  @include button-variant-outline($black, $nocolor , $black , $white, $theme-color-default, $theme-color-default, 10px );
+}
+.btn-outline-white{
+  @include button-variant-outline($white, $nocolor , $white , $white, $theme-color-default, $theme-color-default, 10px);
+}
+.btn-outline-default{
+  @include button-variant-outline($black, $nocolor , $black , $white, $theme-color-default, $theme-color-default, 7px);
+}

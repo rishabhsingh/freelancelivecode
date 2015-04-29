@@ -1,0 +1,287 @@
+/* line 4, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.ptsblockblogs {
+  float: left;
+  width: 100%;
+  margin: 40px 0 30px;
+  padding-bottom: 15px;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+/* line 11, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.ptsblockblogs h3 {
+  margin: 0;
+}
+/* line 13, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.ptsblockblogs h3 > span {
+  float: left;
+  background: #262626;
+  font: 600 14px/22px "Exo2.0Regular", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  padding: 8px 15px;
+  position: relative;
+}
+/* line 21, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.ptsblockblogs h3 > span:before {
+  height: 0;
+  width: 0;
+  right: 45%;
+  top: 100%;
+  content: "";
+  position: absolute;
+  border: 5px solid transparent;
+  border-top-color: #262626;
+}
+/* line 33, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.ptsblockblogs .block_content {
+  clear: both;
+  padding-top: 30px;
+}
+/* line 37, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.ptsblockblogs .link-view {
+  margin-top: 10px;
+}
+/* line 40, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.ptsblockblogs .link-view a.pull-right:hover {
+  color: #e43228;
+}
+/* line 43, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.ptsblockblogs .link-view a.pull-right:hover span:before {
+  color: #e43228;
+}
+/* line 48, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.ptsblockblogs .link-view a.pull-right span {
+  font-size: 12px;
+  font-style: italic;
+  font-family: "RockwellRegular", Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+  padding-right: 20px;
+  position: relative;
+}
+/* line 55, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.ptsblockblogs .link-view a.pull-right span:before {
+  content: "\f178";
+  font-family: 'FontAwesome';
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: -1px;
+  font-style: normal;
+  font-weight: normal;
+  color: #262626;
+}
+
+/* line 70, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog_container {
+  float: left;
+  width: 100%;
+}
+@media (min-width: 480px) {
+  /* line 70, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+  .blog_container {
+    margin-bottom: 15px;
+  }
+}
+/* line 76, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog_container .blog-image {
+  float: left;
+  margin-right: 15px;
+  position: relative;
+}
+/* line 80, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog_container .blog-image:before {
+  height: 0;
+  width: 0;
+  right: 0;
+  top: 45%;
+  content: "";
+  z-index: 1;
+  position: absolute;
+  border-bottom: 6px solid transparent;
+  border-right: 6px solid white;
+  border-top: 6px solid transparent;
+}
+/* line 93, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog_container .blog-image a.link:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  transition: scale(0);
+  transition: all 300ms ease-in-out 0s;
+}
+/* line 103, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog_container .blog-image a.link .icon {
+  visibility: hidden;
+  position: absolute;
+  top: 38%;
+  left: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  background: #FFF;
+  text-align: center;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+}
+/* line 118, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog_container .blog-image a.link:hover .icon {
+  visibility: visible;
+  transition: scale(1);
+}
+/* line 122, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog_container .blog-image a.link:hover:before {
+  transition: scale(1);
+  color: black;
+  background: rgba(228, 50, 40, 0.3);
+}
+/* line 129, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog_container .blog-meta {
+  font-size: 14px;
+}
+/* line 131, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog_container .blog-meta h5 {
+  margin: 0;
+  height: 48px;
+  overflow: hidden;
+}
+/* line 135, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog_container .blog-meta h5 a {
+  color: black;
+  font: 18px/22px "RockwellRegular", Arial, Helvetica, sans-serif;
+}
+/* line 138, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog_container .blog-meta h5 a:hover {
+  color: #e43228;
+}
+/* line 143, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog_container .blog-meta .blog-created {
+  color: #999999;
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* line 153, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container h1 {
+  margin: 0 0 20px;
+  font-size: 28px;
+  color: black;
+}
+/* line 158, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .blog-image {
+  margin-bottom: 15px;
+}
+/* line 161, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .blog-meta {
+  margin-bottom: 15px;
+}
+/* line 163, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .blog-meta > span {
+  padding-right: 10px;
+  color: black;
+}
+/* line 166, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .blog-meta > span span {
+  font-weight: normal;
+}
+/* line 168, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .blog-meta > span span span {
+  padding: 0 5px 0 0;
+}
+/* line 172, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .blog-meta > span a {
+  color: #e43228;
+}
+/* line 177, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .blog-tags {
+  margin-bottom: 15px;
+}
+/* line 179, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .blog-tags a {
+  color: #e43228;
+}
+/* line 183, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .social-share {
+  margin-bottom: 15px;
+}
+/* line 187, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .social-share .blog-social .social-wrap .social-heading {
+  padding-right: 10px;
+}
+/* line 190, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .social-share .blog-social .social-wrap > div {
+  float: left;
+}
+/* line 197, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .extra-blogs h4 {
+  color: black;
+}
+/* line 200, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .extra-blogs ul {
+  margin-left: 14px;
+}
+/* line 202, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .extra-blogs ul li {
+  list-style: circle;
+  line-height: 22px;
+}
+/* line 209, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .blog-comment-block h3 {
+  color: black;
+}
+/* line 213, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .blog-comment-block .form-horizontal input[type="text"] {
+  color: #666;
+  height: 35px;
+}
+/* line 217, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .blog-comment-block .form-horizontal .btn-default {
+  padding: 8px 9px 7px;
+  display: block;
+  border: none;
+  text-transform: uppercase;
+  font: 12px "Exo2.0Regular", sans-serif;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 0 3px #c22b22;
+  color: white;
+  background: -moz-linear-gradient(top, rgba(255, 26, 0, 0.73) 0%, #ff1a00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 26, 0, 0.73)), color-stop(100%, #ff1a00));
+  background: -webkit-linear-gradient(top, rgba(255, 26, 0, 0.73) 0%, #ff1a00 100%);
+  background: -o-linear-gradient(top, rgba(255, 26, 0, 0.73) 0%, #ff1a00 100%);
+  background: -ms-linear-gradient(top, rgba(255, 26, 0, 0.73) 0%, #ff1a00 100%);
+  background: linear-gradient(to bottom, rgba(255, 26, 0, 0.73) 0%, #ff1a00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#baff1a00', endColorstr='#ff1a00',GradientType=0 );
+}
+/* line 233, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .blog-comment-block .form-horizontal .btn-default:hover {
+  background: #262626;
+}
+/* line 238, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .blog-comment-block .form-horizontal .ipts-captcha img {
+  float: left;
+  margin-right: 10px;
+}
+/* line 242, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blog-container .blog-comment-block .form-horizontal .ipts-captcha input {
+  width: 150px;
+}
+
+/* line 250, ../../../sass/modules/ptsblockblogs/ptsblockblogs.scss */
+.blogs-container h1 {
+  margin: 0 0 20px;
+  font-size: 28px;
+  color: black;
+}

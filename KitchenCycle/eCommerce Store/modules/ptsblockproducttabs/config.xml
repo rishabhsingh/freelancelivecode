@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ptsblockproducttabs</name>
+	<displayName><![CDATA[Pts Product Tabs Block]]></displayName>
+	<version><![CDATA[2.0]]></version>
+	<description><![CDATA[Adds a block with current product specials powered by leo framework 2.0.]]></description>
+	<author><![CDATA[PrestaBrain]]></author>
+	<tab><![CDATA[pricing_promotion]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

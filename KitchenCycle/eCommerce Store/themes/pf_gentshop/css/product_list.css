@@ -1,0 +1,99 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+.product_list.list .product-block {
+  margin-bottom: 15px; }
+  .product_list.list .product-block .product-container > div {
+    float: left; }
+  .product_list.list .product-block .image {
+    width: 33%; }
+    .product_list.list .product-block .image img {
+      width: 100%; }
+  .product_list.list .product-block .description {
+    display: block; }
+  .product_list.list .product-block .name {
+    text-align: left; }
+  .product_list.list .product-block .product-meta {
+    width: 67%;
+    text-align: left;
+    padding: 0 30px; }
+  .product_list.list .product-block .wrap-hover > div {
+    text-align: left; }
+  .product_list.list .product-block .rating, .product_list.list .product-block .product-rating, .product_list.list .product-block .norating {
+    margin-left: 25px !important; }
+
+.thumbs-wrap {
+  display: none; }
+
+@media (min-width: 991px) {
+  .gallery-carousel {
+    position: relative; }
+
+  .ajax_block_product .thumbs-wrap {
+    display: block;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    height: 420px;
+    right: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    padding: 0 10px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 63px;
+    z-index: 9999;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin-top: -1px; }
+    .ajax_block_product .thumbs-wrap .thumbs_list {
+      height: 370px;
+      margin-top: 10px;
+      overflow: hidden;
+      width: 63px; }
+      .ajax_block_product .thumbs-wrap .thumbs_list li {
+        border: 0;
+        margin: 0; }
+        .ajax_block_product .thumbs-wrap .thumbs_list li a {
+          border: 1px solid #eee;
+          margin-bottom: 10px;
+          display: block; }
+    .ajax_block_product .thumbs-wrap .view_scroll_left,
+    .ajax_block_product .thumbs-wrap .view_scroll_right {
+      display: block;
+      text-align: center; }
+      .ajax_block_product .thumbs-wrap .view_scroll_left > i,
+      .ajax_block_product .thumbs-wrap .view_scroll_right > i {
+        display: inline-block;
+        font-size: 15px;
+        line-height: 10px; }
+
+  .list .ajax_block_product .thumbs-wrap {
+    display: none; }
+
+  .ajax_block_product:hover .thumbs-wrap {
+    right: -85px;
+    left: auto;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    z-index: 99; } }

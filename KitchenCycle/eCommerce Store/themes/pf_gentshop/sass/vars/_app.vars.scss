@@ -1,0 +1,131 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+$app-brand-prefix        : pts !default;
+
+/**
+ *   Blocks Layout Selectors 
+ */
+$block-prefix 			 : block !default;
+$block-selector          : block  !default;
+$block-heading-selector  : title_block !default;
+$block-content-selector  : block_content !default;
+
+/**
+ * Product Item Selectors
+ */
+  
+//------- Path Variables
+$image-path:                   "img/"!default;
+$font-custom-path:             "../font/"!default;
+$image-theme-base-path:        "../img/"!default;
+$image-base-path:              "../img/"!default;
+$image-theme-skin-path:        "../img/theme-skin/"!default;
+$image-module-path:            "../../../img/"!default;
+$module-path:                  "../../../modules/"!default;
+
+$image-theme-path:                   "../img/" !default;
+$theme-font-path :          	 "../font/" !default;
+
+/***********************************************************************/
+// some basic colors
+
+$sky:                  			    #7bbd42 !default;  // Skin sky
+$blue:                              #6087D2 !default;  // Skin blue
+$yellow:                  			#ffc801 !default;  // Skin yellow
+$coral:								#EE6C92 !default;  // Slin Coral
+$rico:								#51BAA9 !default;  // Skin Rico
+$green:                 			#29C76A !default;  // Skin Green
+$red:                   			#e27f7a !default;  // Skin Red
+$pink:                  			#c3325f !default;
+$white:			 				    #FFFFFF !default;
+$black:							    #000000 !default;
+$cyandark:   						#4e4d49 !default;
+$orange:                			#df995e !default;
+$aqua: 								#75aab8 !default;
+$turquoise:                         #4ACFD4 !default; // label new
+$nav-border-color-hover:            #e2e2e2 !default;
+$golden-poppy:                      #F2BE01 !default;
+$valencia:      					#D44A4A !default;
+$tundora:                           #777777 !default;  // Topbar + Vertical Menu Content
+$wild-sand:                         #ffffff !default;  // Background Body - default
+$silver:                            #f5f5f5 !default;  
+//------- Themes colors
+$red-light:            				#ff9999!default;
+$yellow-light:           			#ffdc73!default;
+$nocolor:							transparent!default;
+
+
+// some basic font family
+// ========================================================================
+$font-tamoha: "tahoma";
+$font-arial: "Arial";
+
+
+// Variables paths 
+// ========================================================================
+
+$font-family:			 			 "pluto", sans-serif !default;
+$font-family-secondary :             "pluto", sans-serif !default;
+$font-family-tertiary  :             "bebas_neue" !default;
+$font-family-senary    : 		 	 "bebas_neue" !default;
+$font-family-septenary : 			 "tahoma" !default; 
+ 
+$font-icon-family 	   : 			 "FontAwesome" !default;
+$theme-font-icon	   :			 "FontAwesome" !default;
+
+
+
+//////////////////// Variables defined for Themes + Skins ////////////////
+
+$body-bg:                           #ffffff !default;
+$theme-color:  				        #6cabd5 !default; 
+
+$theme-color-default : 			    #6cabd5 !default;
+$theme-color-primary :				#a0a0a0 !default; //Color text default
+$theme-color-secondary:             #292929 !default;   
+$theme-color-tertiary:              #FFFFFF !default;
+$theme-color-hover : 				#6cabd5 !default;
+
+
+
+$font-body-family	   : $font-family!default;
+$font-headding-family  : $font-family-secondary !default;
+$font-menu-family      : $font-family-secondary !default; 
+$font-highlighted-family: $font-family-secondary !default;
+$font-weight-base: 100!default;
+
+$theme-bg-default		: $gray-lighter!default; 
+$theme-bg-secondary 	 : $red!default; // using variable  for Theme  Skin 
+$theme-bg-threedary  	 : $brand-warning!default; // using skin product list
+
+  
+$border-color  : #E5E5E5 !default;
+
+$table-bg-color	:  #ebebeb !default;
+//
+// Variables
+// --------------------------------------------------
+$rtl-left : left;
+$rtl-right : right;
+
+$border-color   : #e1e1e1 !default;
+$border-box     :#DDDDDD;
+
+$table-bg-color	:  #ebebeb !default;
+
+
+// newsletter
+$newsletter-font-family:       $font-family;
+$newsletter-input-bg:         #171717;
+$newsletter-input-border:      transparent;
+$newsletter-input-padding:     0 80px 0 30px ;
+$newsletter-input-lineheight:  34px;
+$newsletter-input-text-color: #777;
+$newsletter-input-font-size:  $font-size-base - 2;
+
+$newsletter-button-bg:         $yellow;
+$newsletter-button-border:     transparent;
+$newsletter-button-text-color: #000;
+$newsletter-button-font-size:  $font-size-base - 3;
+$newsletter-button-padding:     0 10px;

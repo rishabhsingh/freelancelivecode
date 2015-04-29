@@ -1,0 +1,343 @@
+/**
+ * BxSlider v4.0 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2012
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+/******************************************************************************
+						Home Page Slider
+*******************************************************************************/
+/* line 18, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 14px;
+  width: 100%;
+  max-width: 1170px;
+  max-height: 380px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  float: left;
+}
+@media (max-width: 767px) {
+  /* line 18, ../../../sass/modules/homeslider/bx_styles.scss */
+  #homepage-slider {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 20px;
+  }
+}
+/* line 34, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider #homeslider {
+  margin: 0 auto;
+  padding: 0;
+}
+/* line 38, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .homeslider-description {
+  padding: 50px 50px;
+  cursor: pointer;
+  color: #262626;
+}
+/* line 42, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .homeslider-description h3 {
+  font: 600 20px/30px "Exo2.0Regular", sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 15px;
+  clear: both;
+}
+/* line 48, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .homeslider-description h2 {
+  font: 600 36px/20px "Exo2.0Regular", sans-serif;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  display: inline;
+  padding: 0 10px;
+}
+/* line 55, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .homeslider-description p {
+  font: 14px "RockwellRegular", Arial, Helvetica, sans-serif;
+  padding: 20px 0 0;
+  color: #262626;
+}
+/* line 60, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .homeslider-description button {
+  font: 12px/21px "Exo2.0Regular", sans-serif;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 0 3px #c22b22;
+  background: -moz-linear-gradient(top, rgba(255, 26, 0, 0.73) 0%, #ff1a00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 26, 0, 0.73)), color-stop(100%, #ff1a00));
+  background: -webkit-linear-gradient(top, rgba(255, 26, 0, 0.73) 0%, #ff1a00 100%);
+  background: -o-linear-gradient(top, rgba(255, 26, 0, 0.73) 0%, #ff1a00 100%);
+  background: -ms-linear-gradient(top, rgba(255, 26, 0, 0.73) 0%, #ff1a00 100%);
+  background: linear-gradient(to bottom, rgba(255, 26, 0, 0.73) 0%, #ff1a00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#baff1a00', endColorstr='#ff1a00',GradientType=0 );
+}
+/* line 74, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .homeslider-description button:hover {
+  background: #262626;
+}
+@media (max-width: 1200px) {
+  /* line 38, ../../../sass/modules/homeslider/bx_styles.scss */
+  #homepage-slider .homeslider-description {
+    padding: 20px;
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 768px) {
+  /* line 38, ../../../sass/modules/homeslider/bx_styles.scss */
+  #homepage-slider .homeslider-description {
+    padding: 30px;
+    font-size: 0.7em;
+  }
+  /* line 85, ../../../sass/modules/homeslider/bx_styles.scss */
+  #homepage-slider .homeslider-description p {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 480px) {
+  /* line 38, ../../../sass/modules/homeslider/bx_styles.scss */
+  #homepage-slider .homeslider-description {
+    padding: 30px;
+    font-size: 0.5em;
+  }
+  /* line 92, ../../../sass/modules/homeslider/bx_styles.scss */
+  #homepage-slider .homeslider-description p {
+    font-size: 1.7em;
+  }
+}
+
+/*****************************************************************************
+						BXSlider Styles
+********************************************************************************/
+/* line 104, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .homeslider-container {
+  position: relative;
+}
+/* line 107, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .homeslider-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 112, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .homeslider-description {
+  position: absolute;
+  left: 45%;
+  top: 10%;
+}
+/* line 117, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper {
+  position: relative;
+  padding: 0;
+  *zoom: 1;
+}
+/* line 121, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper a {
+  display: block;
+}
+/* line 124, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper img {
+  display: block;
+  max-width: 100%;
+}
+/* line 131, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-viewport {
+  width: 100%;
+}
+/* line 136, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-pager,
+#homepage-slider .bx-wrapper .bx-controls-auto {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+}
+/* line 142, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-loading {
+  min-height: 50px;
+  background: url(images/bx_loader.gif) center center no-repeat white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+/* line 153, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-pager {
+  text-align: center;
+  font-size: .85em;
+  font-family: "RockwellRegular", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #666;
+  padding-top: 20px;
+}
+/* line 162, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-pager .bx-pager-item,
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+/* line 167, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a {
+  background: #666;
+  text-indent: -9999px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  outline: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 180, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a:hover,
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #000;
+}
+/* line 184, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-prev {
+  right: 60px;
+}
+/* line 186, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-prev:after {
+  content: "\f053";
+}
+/* line 190, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-next {
+  right: 10px;
+}
+/* line 192, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-next:after {
+  content: "\f054";
+}
+/* line 196, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  bottom: 10px;
+  outline: 0;
+  width: 52px;
+  height: 52px;
+  text-indent: -9999px;
+  z-index: 9999;
+  border: 2px solid #e7e7e7;
+}
+/* line 205, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-controls-direction a:before {
+  height: 48px;
+  width: 48px;
+  display: block;
+  background: white;
+  content: ".";
+  opacity: 0.14;
+  text-indent: -9999px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+/* line 218, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-controls-direction a:after {
+  display: block;
+  width: 48px;
+  height: 48px;
+  color: #666666;
+  text-indent: 0;
+  text-align: center;
+  font-size: 21px;
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 16px 0 0 0;
+}
+/* line 234, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-controls-direction a:hover:before {
+  background: #262626;
+  opacity: 0.83;
+}
+/* line 240, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-controls-direction a.disabled {
+  display: none;
+}
+/* line 244, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-controls-auto {
+  text-align: center;
+}
+/* line 247, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-start {
+  display: block;
+  text-indent: -9999px;
+  width: 10px;
+  height: 11px;
+  outline: 0;
+  background: url(images/controls.png) -86px -11px no-repeat;
+  margin: 0 3px;
+}
+/* line 257, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-start:hover,
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-start.active {
+  background-position: -86px 0;
+}
+/* line 260, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-stop {
+  display: block;
+  text-indent: -9999px;
+  width: 9px;
+  height: 11px;
+  outline: 0;
+  background: url(images/controls.png) -86px -44px no-repeat;
+  margin: 0 3px;
+}
+/* line 270, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-stop:hover,
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-stop.active {
+  background-position: -86px -33px;
+}
+/* line 274, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+  text-align: left;
+  width: 80%;
+}
+/* line 278, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+  right: 0;
+  width: 35px;
+}
+/* line 283, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #666\9;
+  background: rgba(80, 80, 80, 0.75);
+  width: 100%;
+}
+/* line 291, ../../../sass/modules/homeslider/bx_styles.scss */
+#homepage-slider .bx-wrapper .bx-caption span {
+  color: #666666;
+  font-family: "RockwellRegular", Arial, Helvetica, sans-serif;
+  display: block;
+  font-size: .85em;
+  padding: 10px;
+}
+
+/* line 302, ../../../sass/modules/homeslider/bx_styles.scss */
+.ie8 #homepage-slider .bx-wrapper .bx-controls-direction a:before {
+  background: #262626;
+}

@@ -1,0 +1,39 @@
+@import "compass";
+@import "theme_variables";
+#search_block_top {
+	@include transition(all 0.35s);
+	position: absolute;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 0;
+	top: 70px;
+	@include opacity(0);
+	margin: 0!important;
+	background: $white;
+	&.nav-search{
+		form#searchbox {
+			display: none;
+		}
+		&.open{
+			height: 90px;
+			@include opacity(1);
+			top: 40px;
+			form#searchbox {
+				display: block;
+				.search_query {
+					height: 100%;
+					line-height: 70px;
+					font-size: 32px;
+					
+				}
+			}
+		}
+		.button-close{
+			cursor: pointer;
+		}
+	}
+	&.open{
+		border: 1px solid $border-color;
+	}
+}	

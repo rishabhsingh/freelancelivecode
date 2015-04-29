@@ -1,0 +1,301 @@
+//
+// Navs
+// --------------------------------------------------
+.#{$app-brand-prefix}-megamenu {
+	background: $megamenu-outside-bg;
+    font-family: $megamenu-font-family;
+	.#{$app-brand-prefix}-colorbox{
+		display: none !important;
+	}
+	.navbar{
+		background: $megamenu-bg;
+		border: 0;
+		margin: 0;
+		padding: 0;
+		@include rounded-corners(0);
+		.navbar-header{
+			width: 100%;
+		}
+		.navbar-collapse{
+			&.collapse{
+				display: none;
+			}
+			&.in{
+				overflow-y: unset;
+			}
+		}
+		 @media (min-width: $screen-sm-max + 1) {
+			.navbar-collapse.collapse{
+				display: block;
+			}
+		}
+	}
+	/* menu level 1 */
+	.navbar-nav{
+		@include rtl-float-right();
+		width: auto;
+		> li {
+			float: none;
+	         @media (min-width: $screen-sm-max + 1) {
+				@include rtl-float-left();
+			}
+			&.aligned-fullwidth {
+				position: static;
+				> .dropdown-menu  {
+					width: 100%!important;
+				}
+			}
+			&.aligned-right {
+				.dropdown-menu  {
+					right: 0;
+					left: auto;
+				}
+			}
+			&.aligned-left {
+				> .dropdown-menu  {
+					@include rtl-left(0);
+				}
+			}
+			&.aligned-center {
+				> .dropdown-menu  {
+					left:50%;
+					@include translate(-50%, 0);
+
+				}
+			}
+			> a{
+				padding: $megamenu-parent-padding;				
+				text-transform:  $megamenu-parent-text-transform;		
+				font-size: $megamenu-link-font-size;			
+				color: $megamenu-link-color;
+				background-color: transparent!important;
+				font-weight: $megamenu-font-weight;
+				font-family: $font-family-secondary;
+				margin: 0 7px;
+				@include transition(all 350ms ease-out);
+				&:hover,&:focus,&:active{					
+					color: $megamenu-link-hover-color!important;	
+					.caret:before{
+						color: $megamenu-link-hover-color!important;	
+					}		
+				}
+				&:after{							
+					content:"";
+					background: $theme-color;
+					left: 0;
+					top: 0;
+					right: 0;
+					margin: 0 auto;	
+					line-height: 0;				
+					position: absolute;
+					height: 4px;
+					@include opacity(0);								
+					@include transition(width 0.5s ease 0s, height 0.5s ease 0s);
+					width: 4px;
+					margin: auto;
+					z-index: 9;
+				}
+				span {
+
+				}
+
+				.caret{
+					border: 0;
+					position: relative;
+					margin: 0;
+					&:before{
+						content: '\f107';
+						font-family: 'FontAwesome';						
+						position: absolute;
+						@include rtl-right(-10px);
+						top: -10px;
+						font-weight: 100;					
+						color: $megamenu-link-color;
+					}						
+				}	
+			} 
+			&:hover {
+				> a .caret:before, &:active > a .caret:before {
+					color: $megamenu-link-hover-color;
+				}	
+				 a:after{
+				 	 @media(min-width: $screen-sm-max){
+						@include opacity(1);
+						width: 100%;
+					}
+				}
+				
+			}
+			&.full-width{
+				position: static;
+			}
+			&:first-child a{
+				@media(min-width: $screen-sm-max){
+					padding-left: 0;
+				}	
+			}
+		} 		
+	}
+	
+	/* level 2 */
+	.dropdown-menu{			
+		top: 100%;	
+    	@media (min-width: $screen-sm-max) {
+			left:-9999px;
+		}	
+		height: auto;								
+		font-weight: 300;		
+		color: $megamenu-sub-text-color;	
+		border: $megamenu-sub-border;
+		min-width: $megamenu-sub-min-width;
+		padding: $megamenu-sub-padding;
+		background-color: $megamenu-sub-bg-color;							
+		@include rounded-corners($megamenu-sub-radius);							
+		@include box-shadow($megamenu-sub-shadow);
+		@include transition(opacity 0.3s linear 0s);			
+	    li{
+	    	line-height: $line-height-computed + 10;
+	    	padding-top: 3px;
+	    	padding-bottom: 3px;
+		    a{    
+		    	color:$megamenu-sub-link-color;
+			   	padding: 0;
+			   	font-size: $megamenu-sub-font-size;
+			   	line-height: $line-height-computed + 10;			   	
+			   	&:hover{
+			   		background-color: transparent;
+			   		color: $megamenu-sub-link-hover-color!important;			   		
+			   		.fa{
+			   			color: $megamenu-sub-link-hover-color;	   			
+			   		}
+			   	}
+		    }		    
+	    }		
+		.menu-title{
+			margin-bottom: 25px;
+			font-size: $font-size-base;
+		}
+	}
+	.dropdown{		
+		&:hover{
+			> .dropdown-menu{	
+    			left: 0px;
+    			@media (min-width: $screen-sm-max) {
+					display: block;
+
+				}								 		
+			}
+			> a{		
+			color: $megamenu-link-hover-color;
+				.fa{
+					color: $megamenu-link-hover-color;
+				}									
+			}
+		}		
+	}
+	/* level > 3 */
+	.dropdown-submenu{
+		position: relative;
+		.dropdown-menu{	
+
+    		@media (min-width: $screen-sm-max) {					
+				top: 0;		
+				@include rtl-right( -127%);	
+				left: auto;			
+				position: absolute;
+			}
+		}
+		&:hover{
+			> .dropdown-menu{
+				display: block;	
+			    top: 0;											    									      			
+			}
+		}
+	}
+	.mega-group {		
+		& > .dropdown-toggle {			
+			border: 0;	
+			display: block;			
+			letter-spacing: 3px;				
+			text-transform: uppercase;					
+			font-family: $megamenu-heading-title;	
+			color: $megamenu-heading-color;			
+			.fa{
+				color: $white;
+			}
+		}	
+	}
+ 	.widget-title{
+ 		color:$megamenu-widget-title-color;
+ 	}	
+
+}
+
+.mainnav-v2 {
+	&.pts-mainnav{
+		padding-right: 0!important;
+	}
+	.pts-megamenu .navbar-nav{
+		float: left;
+		 > li{
+			&:first-child a{
+				margin-left: 0;
+			}
+			&:last-child a{
+				margin-right: 0;
+			}
+			a, a .caret:before{
+				color: $black;
+			}
+		}
+	}	
+}
+
+/*** widgets using inside megamenu ***/
+
+.#{$app-brand-prefix}o-widget, .#{$app-brand-prefix}-widget{
+	.widget-heading{
+		font-size: 12px;
+		text-transform: uppercase;
+		color: $black;
+		font-weight: bold;
+		padding-bottom: 15px;
+	}
+ 	 .product-col{
+ 	 	float: left;
+ 	 	width: 33.33333%;
+ 	 	border-right:none;
+ 	 	border-bottom:1px solid $block-module-border-color;
+ 	 	padding: 15px;
+ 	 }
+	 .product-block{
+		@include clearfix();      	
+	 	.image{
+	 		float:left;
+		    overflow: inherit;
+		    width: 100%;
+	 	}
+	 	.action, .#{$app-brand-prefix}-colorbox, .colorbox, .image-gallery{
+	 		display: none;
+	 	}
+	 	.cart{
+	 		display: none;
+	 	} 
+	 }
+	 .product-meta{
+	 	display: inline-block;
+	 	width: 100%;
+	 }
+}
+@media(max-width: $screen-sm-max){
+	#cavas_menu{
+		#pts-top-menu{
+			//position: absolute;
+			width: 100%;
+			z-index: 999;
+			background: #121212;
+			max-height: none!important;
+			//top: 100%;
+		}
+	}
+}	

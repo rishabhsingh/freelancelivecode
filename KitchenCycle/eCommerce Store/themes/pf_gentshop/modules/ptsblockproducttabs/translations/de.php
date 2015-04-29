@@ -1,0 +1,32 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_d9ef3673f23b00b43bf3a57cd99d1829'] = 'PTS Produkt Tabs Block-';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_f7ff3e4bab5377469ca5cb1116f2905f'] = 'Fügt einen Block mit aktuellen Sonderangebote bereitgestellt von leo Framework 2.0.';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_8dd2f915acf4ec98006d11c9a4b0945b'] = 'Einstellungen erfolgreich aktualisiert.';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_f4f70727dc34561dfde1a3c529b6205c'] = 'Einstellungen';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_f44441b45f4e8dc7f75e9470a01952f9'] = 'Anzahl der Einträge in der Seiten-';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_eec0b0d9e243d2b626d7732f759ce46b'] = 'Die maximale Anzahl der Produkte in jeder Registerkarte Seite (Standard: 3).';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_e46be59191719d6eebf547872e26761f'] = 'Anzahl der Spalten in der Seiten-';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_409396efd362a2ee8e04e21b0b384015'] = 'Die maximale Anzahl der Spalten auf jeder Seite Registerkarte (Standard: 3).';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_7e29bc2364b066b48ee49bd7248acf82'] = 'Anzahl der angezeigten Produkte In Tab';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_66c4a387e5e977685503a5f4bb527b09'] = 'Die maximale Anzahl der Produkte in jeder Registerkarte Seite (Standard: 6).';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_33c3382149bb372309e84e6459ffc6b5'] = 'Alle Produkte Tab';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_05ee618c947f0fa8421a50ac086067fd'] = 'Alle Produkte von allen Registerkarten in diesem Register zu zeigen.';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktiviert';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_b9f5c797ebbf55adccdd8539a65a0241'] = 'Behinderte';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_d34cd7cbbcd8d3296363084859d32597'] = 'Special-Register';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_a8a670d89a6d2f3fa59942fc591011ef'] = 'Zeigen Sie den Block, auch wenn kein Produkt verfügbar ist.';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_2891e6bd1b6e8b4be99a6941ff6f1ff0'] = 'BestSeller Tab';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_aaffcd9ede4a83ea0678e1f8acb0f8bb'] = 'Besondere Tab';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_a93f0744f60adc61871989817f039d95'] = 'New Tab Arrials';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_7713570d69607fec64be59b39ea08610'] = 'Top Rating';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_d16dd01adf735ed9b87eebff5fc39ce5'] = 'Intervall';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_b24a524f3acce7d7d0ef2d3bd954d153'] = 'Geben Time (miniseconds), um Karussell zu spielen. Wert 0 zu stoppen.';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_c9cc8cce247e49bae79f15173ce97354'] = 'Speichern';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Alle';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_b4c2b550635fe54fd29f2b64dfaca55d'] = 'Besondere';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_31d26a6487e08357bd771619e894b0c6'] = 'Neuheiten';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_22c6735b370cecf293e32dca6c678185'] = 'Bestseller, Verkaufsschlager, Spitzenreiter';
+$_MODULE['<{ptsblockproducttabs}pf_gentshop>ptsblockproducttabs_cf8156f1f57a8603cd6b3a28c9c2c61b'] = 'Ausgewählte Artikel';

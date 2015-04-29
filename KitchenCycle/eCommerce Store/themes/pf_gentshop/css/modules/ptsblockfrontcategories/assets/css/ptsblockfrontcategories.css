@@ -1,0 +1,267 @@
+/******************************************************
+ * @package Ves Theme Framework for Magento
+ * @version 1.0
+ * @author http://www.venustheme.com
+ * @copyright Copyright (C) Augus 2013 Venustheme.com <@emai:venustheme@gmail.com>.All rights reserved.
+ * @license   GNU General Public License version 2
+*******************************************************/
+/* RIGHT TO LEFT */
+/********************************************************
+			ptsblockfrontcategories
+********************************************************/
+/* line 6, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories {
+  float: left;
+  width: 100%;
+  padding-top: 25px;
+  margin: 15px 0 20px;
+  border-top: 1px solid #eeeeee;
+}
+/* line 792, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories {
+  float: right;
+}
+/* line 13, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories.block h4 {
+  background: none;
+  color: #000;
+  left: 0;
+  right: 0;
+  top: -22px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+/* line 892, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories.block h4 {
+  right: 0;
+  left: auto;
+}
+/* line 899, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories.block h4 {
+  left: 0;
+  right: auto;
+}
+/* line 22, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories.block h4 > span {
+  display: inline-block;
+  background: #FFF;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+/* line 30, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+/* line 34, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item .inner .image {
+  position: relative;
+}
+/* line 36, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item .inner .image .link_viewall {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+/* line 892, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories .category-item .inner .image .link_viewall {
+  right: 0;
+  left: auto;
+}
+/* line 899, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories .category-item .inner .image .link_viewall {
+  left: 0;
+  right: auto;
+}
+/* line 52, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item .inner .image a > span {
+  position: absolute;
+  bottom: 2px;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+/* line 58, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item .inner .image a > span span.categories_title {
+  color: #000;
+  background: #FFF;
+  padding: 4px 10px;
+  text-transform: uppercase;
+  font: 700 12px "Exo", sans-serif;
+}
+/* line 69, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item .category-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: #eeeeee;
+}
+/* line 899, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories .category-item .category-content {
+  left: 0;
+  right: auto;
+}
+/* line 77, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover {
+  position: inherit;
+}
+/* line 81, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .inner .image:before {
+  position: absolute;
+  background: #ffb400;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+/* line 892, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories .category-item:hover .inner .image:before {
+  right: 0;
+  left: auto;
+}
+/* line 899, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories .category-item:hover .inner .image:before {
+  left: 0;
+  right: auto;
+}
+/* line 91, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .inner .image .link_viewall {
+  display: block;
+}
+/* line 96, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .inner .image a > span span.categories_title {
+  color: #FFF !important;
+  background: #eeeeee;
+}
+/* line 104, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready {
+  display: block;
+}
+/* line 107, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready .carousel-controls .carousel-control {
+  color: #FFF;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  line-height: 15px;
+  border: 1px solid #7c7c7c;
+  font-size: 16px;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+/* line 116, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready .carousel-controls .carousel-control.left {
+  left: 15px;
+}
+/* line 892, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories .category-item:hover .category-content.hasready .carousel-controls .carousel-control.left {
+  right: 15px;
+  left: auto;
+}
+/* line 119, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready .carousel-controls .carousel-control.right {
+  left: 34px;
+}
+/* line 892, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories .category-item:hover .category-content.hasready .carousel-controls .carousel-control.right {
+  right: 34px;
+  left: auto;
+}
+/* line 122, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready .carousel-controls .carousel-control:hover {
+  color: #515151;
+}
+/* line 127, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready ul {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 30px 0 15px;
+}
+/* line 792, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories .category-item:hover .category-content.hasready ul {
+  float: right;
+}
+/* line 132, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li {
+  padding-bottom: 15px;
+}
+/* line 134, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container {
+  background: none;
+}
+/* line 136, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .left-block {
+  float: left;
+  margin-right: 10px;
+  background: #f4f4f4;
+}
+/* line 792, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .left-block {
+  float: right;
+}
+/* line 803, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .left-block {
+  margin-left: 10px;
+  margin-right: inherit;
+}
+/* line 140, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .left-block .new-box, .ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .left-block .sale-box {
+  width: 40px;
+  height: 40px;
+  left: 15px;
+  top: 0;
+}
+/* line 892, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .left-block .new-box, .rtl .ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .left-block .sale-box {
+  right: 15px;
+  left: auto;
+}
+/* line 145, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .left-block .new-box .new-label, .ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .left-block .sale-box .new-label {
+  top: -5px;
+  left: -20px;
+}
+/* line 892, ../../../../../sass/bootstrap_lib/_mixins.scss */
+.rtl .ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .left-block .new-box .new-label, .rtl .ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .left-block .sale-box .new-label {
+  right: -20px;
+  left: auto;
+}
+/* line 152, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .right-block .content_price {
+  display: block;
+  padding: 5px 0;
+}
+/* line 156, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .right-block h5 {
+  display: block;
+}
+/* line 158, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .right-block h5 a {
+  color: #FFF;
+  font-size: 14px;
+}
+/* line 161, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .right-block h5 a:hover {
+  color: #515151;
+}
+/* line 166, ../../../../../sass/modules/ptsblockfrontcategories/assets/css/ptsblockfrontcategories.scss */
+.ptsblockfrontcategories .category-item:hover .category-content.hasready ul > li .product-container .right-block .comments_note {
+  margin-bottom: 0;
+}

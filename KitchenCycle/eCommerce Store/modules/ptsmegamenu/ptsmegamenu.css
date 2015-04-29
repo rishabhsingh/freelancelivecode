@@ -1,0 +1,99 @@
+/* MEGAMENU STYLE */
+.pts-megamenu {
+  position: relative;
+}
+.pts-megamenu .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.pts-megamenu .dropdown-menu > .dropdown-menu-inner {
+  padding: 10px;
+}
+.pts-megamenu .mega-group .caret {
+  display: none;
+}
+.pts-megamenu .mega-group > .dropdown-toggle {
+  display: block;
+  font-weight: bold;
+  padding: 6px 5px;
+  text-transform: uppercase;
+  border-bottom: solid 1px #e5e5e5;
+}
+.pts-megamenu .mega-group .dropdown-mega .mega-col-inner > ul > li a {
+  margin-left: 6px;
+}
+.pts-megamenu .mega-col .mega-col-inner > ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.pts-megamenu .mega-col .mega-col-inner > ul > li {
+  list-style: none;
+  margin-left: 0;
+}
+.pts-megamenu .mega-col .mega-col-inner > ul > li > a {
+  clear: both;
+  color: #555555;
+  display: block;
+  line-height: 20px;
+}
+.pts-megamenu .dropdown-submenu:hover .dropdown-menu {
+  display: block;
+}
+.pts-megamenu .cols2 {
+  width: 420px;
+}
+.pts-megamenu .cols3 {
+  width: 620px;
+}
+.pts-megamenu .cols4 {
+  width: 820px;
+}
+
+/* WIDGET STYLES */
+.leo-widget .widget-heading {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 110%;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: solid 1px #f3f3f3;
+}
+
+.widget-products img {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-right: 12px;
+}
+
+.widget-banner .w-banner {
+  margin: 6px 10px;
+  float: left;
+}
+
+.widget-images .images-list {
+  clear: both;
+}
+
+.widget-images .images-list > div {
+  position: relative;
+  float: left;
+}
+
+.widget-images .images-list > div > div {
+  padding: 3px;
+}
+
+.widget-images .images-list > div img {
+  max-width: 100%;
+}
+.sub-title{
+    display: block;
+    font-size: 80%;
+    line-height: 1.25em;
+    margin-bottom: 7px;
+    text-shadow: none ;
+}
+
+
+

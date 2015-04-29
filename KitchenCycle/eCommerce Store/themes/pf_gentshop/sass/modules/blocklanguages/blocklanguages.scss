@@ -1,0 +1,35 @@
+@import "compass";
+@import "theme_variables";
+
+
+#languages-block-top {
+	a.current {
+		img {
+			margin-top: -4px;
+		}
+	}
+	ul {
+
+		@include rtl-left(0);
+
+		li {
+			line-height: 30px;
+			font-size: 13px;
+			span {
+				color: $theme-color;
+				img {
+					@include rtl-margin-right (5px);
+					margin-top: -2px;
+				}
+			}
+			a {
+				span {
+					font-weight:  normal;
+			    	color: $light-text-color;
+				}
+			}
+
+		}
+	}
+}
+

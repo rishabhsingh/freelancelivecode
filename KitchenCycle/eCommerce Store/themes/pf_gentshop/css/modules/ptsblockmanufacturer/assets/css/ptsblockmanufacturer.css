@@ -1,0 +1,38 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+/*******************************************************************
+					ptsblockmanufacturer
+********************************************************************/
+.ptsblockmanufacturer {
+  padding-right: 0;
+  overflow: hidden; }
+  .rtl .ptsblockmanufacturer {
+    padding-left: 0;
+    padding-right: inherit; }
+  .ptsblockmanufacturer.block .title_block:before {
+    content: "\f024"; }
+  .ptsblockmanufacturer .carousel-inner .block_manuf a {
+    display: block;
+    text-align: center; }
+  .ptsblockmanufacturer .block_content {
+    padding-left: 0;
+    padding-right: 0; }

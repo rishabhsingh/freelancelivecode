@@ -1,0 +1,26 @@
+//Bootstrap
+$font-size-base:          13px ;
+$brand-primary: 		  #e85663;
+
+// Iconography
+// -------------------------
+$icon-font-path:          "../../fonts/";
+$theme-font-path:          "../../fonts/";
+// Image
+// -------------------------
+$image-theme-path:'../img/skins/fullslide/';
+$image-theme-base-path:  '../img/';
+//Theme
+$theme-color           : #e85663; 
+$theme-color-default   : #e85663;
+//Product
+$product-name-font-size: $font-size-base + 3;
+$product-name-hover-color: $theme-color;
+//Topbar
+$topbar-link-color: $theme-color;
+$topbar-link-hover-color: #000;
+//Menu 
+$megamenu-link-hover-color: $theme-color;
+$megamenu-sub-link-hover-color: $theme-color;
+//Footer
+$footer-link-hover-color: $theme-color; 

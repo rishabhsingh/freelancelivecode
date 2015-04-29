@@ -1,0 +1,81 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+/* line 4, ../../../sass/modules/ptsstaticcontent/ptsstaticcontent.scss */
+.column {
+  position: inherit; }
+
+/* line 7, ../../../sass/modules/ptsstaticcontent/ptsstaticcontent.scss */
+.icon-name {
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+  display: inline-block; }
+
+/* line 13, ../../../sass/modules/ptsstaticcontent/ptsstaticcontent.scss */
+.reassurances-center {
+  padding: 30px 0 20px;
+  text-align: center; }
+  /* line 16, ../../../sass/modules/ptsstaticcontent/ptsstaticcontent.scss */
+  .reassurances-center .reassurance-title {
+    text-transform: uppercase;
+    font-family: "bebas_neue";
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: white;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s; }
+  /* line 25, ../../../sass/modules/ptsstaticcontent/ptsstaticcontent.scss */
+  .reassurances-center .description {
+    color: #c6c6c6; }
+  /* line 29, ../../../sass/modules/ptsstaticcontent/ptsstaticcontent.scss */
+  .reassurances-center .read-more .icon-read-more {
+    color: #6cabd5;
+    opacity: 0;
+    filter: alpha(opacity=0); }
+    /* line 32, ../../../sass/modules/ptsstaticcontent/ptsstaticcontent.scss */
+    .reassurances-center .read-more .icon-read-more:hover {
+      color: white; }
+  /* line 38, ../../../sass/modules/ptsstaticcontent/ptsstaticcontent.scss */
+  .reassurances-center:hover .reassurance-title {
+    letter-spacing: 4px; }
+  /* line 41, ../../../sass/modules/ptsstaticcontent/ptsstaticcontent.scss */
+  .reassurances-center:hover .read-more .icon-read-more {
+    cursor: pointer;
+    opacity: 1;
+    filter: alpha(opacity=100); }
+
+/* line 49, ../../../sass/modules/ptsstaticcontent/ptsstaticcontent.scss */
+.title_detail h4 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 50px; }
+/* line 54, ../../../sass/modules/ptsstaticcontent/ptsstaticcontent.scss */
+.title_detail .icon-name {
+  color: #2E3A47;
+  font-size: 170px;
+  margin: 0 20px; }
+/* line 59, ../../../sass/modules/ptsstaticcontent/ptsstaticcontent.scss */
+.title_detail p {
+  color: #8C8C8C;
+  font-size: 15px;
+  margin: 25px 0 0; }

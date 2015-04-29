@@ -1,0 +1,202 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+/* line 4, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.ptsblog-latest .blog-title a {
+  color: #000000;
+  font-family: "museo_sans";
+  font-size: 13px;
+  font-weight: 500;
+}
+/* line 9, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.ptsblog-latest .blog-title a:hover {
+  color: #EA3A3C;
+}
+
+/* line 13, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+#blockleoblogstabs {
+  float: left;
+  width: 100%;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+/* line 340, ../../../sass/mixins/_app.scss */
+.rtl #blockleoblogstabs {
+  float: right;
+}
+/* line 20, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+#blockleoblogstabs .blog-viewmore {
+  margin: 10px 0;
+}
+/* line 22, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+#blockleoblogstabs .blog-viewmore a {
+  font-style: italic;
+}
+/* line 24, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+#blockleoblogstabs .blog-viewmore a:after {
+  width: 20px;
+  display: inline-block;
+  float: right;
+  content: "\f178";
+  font: 12px/20px "FontAwesome";
+  margin-left: 7px;
+}
+/* line 340, ../../../sass/mixins/_app.scss */
+.rtl #blockleoblogstabs .blog-viewmore a:after {
+  float: left;
+}
+/* line 351, ../../../sass/mixins/_app.scss */
+.rtl #blockleoblogstabs .blog-viewmore a:after {
+  margin-right: 7px;
+  margin-left: inherit;
+}
+
+/* line 36, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.blog_container .blog-meta {
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+/* line 40, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.blog_container .blog-meta > * {
+  margin-right: 5px;
+}
+/* line 351, ../../../sass/mixins/_app.scss */
+.rtl .blog_container .blog-meta > * {
+  margin-left: 5px;
+  margin-right: inherit;
+}
+/* line 45, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.blog_container .blog-image {
+  position: relative;
+  overflow: hidden;
+}
+/* line 48, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.blog_container .blog-image a {
+  position: relative;
+  display: block;
+}
+/* line 51, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.blog_container .blog-image a:after {
+  height: 0;
+  width: 0;
+  top: 50%;
+  right: 0;
+  content: "";
+  position: absolute;
+  margin-top: -3px;
+  border: 6px solid transparent;
+  border-right: 6px solid white;
+}
+/* line 447, ../../../sass/mixins/_app.scss */
+.rtl .blog_container .blog-image a:after {
+  left: 0;
+  right: auto;
+}
+/* line 351, ../../../sass/mixins/_app.scss */
+.rtl .blog_container .blog-image a:after {
+  border-left: 6px solid white;
+  border-right: inherit;
+}
+/* line 62, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.blog_container .blog-image a:before {
+  background: #f0ad4e;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  -webkit-transition: opacity 0.3s ease-in-out 0s;
+  transition: opacity 0.3s ease-in-out 0s;
+}
+/* line 72, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.blog_container .blog-image a span {
+  background: white;
+  content: "\f0c1";
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  display: block;
+  top: 50%;
+  left: -50%;
+  margin-left: -17px;
+  margin-top: -17px;
+  font-family: "FontAwesome";
+  padding: 10px;
+  color: #555555;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 100;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+/* line 90, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.blog_container .blog-image a span:hover {
+  color: #ea3a3c;
+}
+/* line 97, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.blog_container .blog-image:hover a:before {
+  background: #f0ad4e;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+/* line 106, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.blog_container .blog-image:hover a span {
+  left: 50%;
+}
+/* line 112, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.blog_container .media-body {
+  padding-right: 15px;
+}
+/* line 351, ../../../sass/mixins/_app.scss */
+.rtl .blog_container .media-body {
+  padding-left: 15px;
+  padding-right: inherit;
+}
+/* line 115, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.blog_container .blog-title {
+  margin-top: 0;
+}
+/* line 117, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.blog_container .blog-title a {
+  color: #535353;
+  font-size: 17px;
+  height: 40px;
+  overflow: hidden;
+  display: block;
+}
+/* line 123, ../../../sass/modules/blockleoblogs/blogcarousel.scss */
+.blog_container .blog-title a:hover {
+  color: #ea3a3c;
+}

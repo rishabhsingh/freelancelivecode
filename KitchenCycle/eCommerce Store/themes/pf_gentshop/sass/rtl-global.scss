@@ -1,0 +1,30 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+* {
+	direction: rtl !important;
+}
+#page {
+	text-align: right !important;
+}
+
+@import "compass";
+@import "compass/reset";
+ 
+@import "theme_variables";
+@import "bootstrap_rtl";
+@import "font-awesome";
+@import "font";
+ 
+@import "app/base";
+@import "app/block";
+@import "app/layout";
+@import "app/menu";
+@import "app/form";
+@import "app/animation";
+@import "app/product";
+@import "app/modules";
+
+@import "typo";
+@import "prestashop-module";
+@import "prestashop-pages";

@@ -1,0 +1,48 @@
+@import "compass";
+@import "theme_variables";
+
+.pts-newsletter {
+ 	.valid{
+	 	position: absolute;
+	 	top: -76px;
+	 	left: 0;
+	 	width: 100%;
+	 	z-index: 999;
+ 	}
+ 	.content{
+	 	width: 100%;
+	 	text-align: center;
+	 	.wapper{
+	 		display: inline-block;
+	 		> div{
+	 			float: left;
+	 			margin-right: 10px;
+	 		}
+	 	}
+ 	}
+ 	.description{
+ 		float: left;
+ 		color: #000;
+ 		text-align: left;
+ 		margin-right: 25px!important;
+ 		line-height: 20px;
+ 	}
+ 	.title{
+ 		font-size: $font-size-base + 5;
+ 		font-weight: 100;
+ 		text-transform: uppercase;
+ 	}
+ 	.input-form{
+ 		input{
+ 			width: 420px;
+ 			@include box-shadow(none);
+ 		}
+ 	}
+ 	.form-control {
+ 	
+ 	}
+ 	.btn-submit{
+ 		margin-top: 10px;
+
+ 	}
+ }

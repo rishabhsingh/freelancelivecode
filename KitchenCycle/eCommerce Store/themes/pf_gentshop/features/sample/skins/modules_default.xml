@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<modules><module name="ptsmegamenu" action="disable"><config>
+<PTS_MEGAMENU_PARAMS>[{"id":5,"group":0,"cols":1,"subwidth":1170,"submenu":1,"align":"aligned-fullwidth","rows":[{"cols":[{"widgets":"wid-1400146905","colwidth":3},{"widgets":"wid-1395713777","colwidth":9}]}]},{"submenu":1,"subwidth":1170,"id":15,"align":"aligned-fullwidth","group":0,"cols":1,"rows":[{"cols":[{"widgets":"wid-1395644456|wid-1400146905","colwidth":3},{"widgets":"wid-1400146905","colwidth":3},{"widgets":"wid-1395716860","colwidth":6}]}]},{"submenu":1,"subwidth":650,"id":4,"align":"aligned-center","group":0,"cols":1,"rows":[{"cols":[{"widgets":"wid-1395629291","colwidth":12}]}]},{"submenu":1,"subwidth":500,"id":7,"align":"aligned-center","group":0,"cols":1,"rows":[{"cols":[{"widgets":"wid-1395715955|wid-1395714496|wid-1400147913","colwidth":12}]},{"cols":[]}]},{"id":17,"group":0,"cols":1,"submenu":1,"align":"aligned-left","rows":[{"cols":[{"type":"menu","colwidth":12}]}]},{"id":18,"group":0,"cols":1,"submenu":1,"align":"aligned-left","rows":[{"cols":[{"type":"menu","colwidth":12}]}]},{"id":19,"group":0,"cols":1,"submenu":1,"align":"aligned-left","rows":[{"cols":[{"type":"menu","colwidth":12}]}]}]</PTS_MEGAMENU_PARAMS>
+</config>
+</module>
+<module name="ptsthemepanel" action="disable"><config>
+<PTS_CP_></PTS_CP_>
+<PTS_CP_ACTIVE>1</PTS_CP_ACTIVE>
+<PTS_CP_COPYRIGHT><p>Your Store Copyright Here</p></PTS_CP_COPYRIGHT>
+<PTS_CP_CUSTOMCSS></PTS_CP_CUSTOMCSS>
+<PTS_CP_CUSTOMJS></PTS_CP_CUSTOMJS>
+<PTS_CP_ENABLE_PHTML>1</PTS_CP_ENABLE_PHTML>
+<PTS_CP_LAYOUT>fullwidth</PTS_CP_LAYOUT>
+<PTS_CP_LOGOTYPE>logo-theme</PTS_CP_LOGOTYPE>
+<PTS_CP_PAYPAL_SETTING>1</PTS_CP_PAYPAL_SETTING>
+<PTS_CP_PHTMLTAB>Custom Tab</PTS_CP_PHTMLTAB>
+<PTS_CP_PRODUCTHTML><p>Your Store Copyright Here</p></PTS_CP_PRODUCTHTML>
+<PTS_CP_PRODUCTS_ITEMROW>3</PTS_CP_PRODUCTS_ITEMROW>
+<PTS_CP_PRODUCT_ACCROW>1</PTS_CP_PRODUCT_ACCROW>
+<PTS_CP_PRODUCT_LAYOUT>swap</PTS_CP_PRODUCT_LAYOUT>
+<PTS_CP_QUICKVIEW>1</PTS_CP_QUICKVIEW>
+<PTS_CP_REHOOK>0</PTS_CP_REHOOK>
+<PTS_CP_THEME>default</PTS_CP_THEME>
+</config>
+</module>
+<module name="ptsblockrelatedproducts" action="disable"><config>
+<PTS_RELATE_PRO_COLUMNS>4</PTS_RELATE_PRO_COLUMNS>
+<PTS_RELATE_PRO_ITEMSPAGE>4</PTS_RELATE_PRO_ITEMSPAGE>
+<PTS_RELATE_PRO_ITEMSTAB>8</PTS_RELATE_PRO_ITEMSTAB>
+<PTS_RELATE_PRO_PORDER>date_add DESC</PTS_RELATE_PRO_PORDER>
+</config>
+</module>
+<module name="ptsstaticcontent" action="disable"><config>
+</config>
+</module>
+<module name="blockcms" action="disable"><config>
+<FOOTER_BEST-SALES>1</FOOTER_BEST-SALES>
+<FOOTER_BLOCK_ACTIVATION>1</FOOTER_BLOCK_ACTIVATION>
+<FOOTER_CMS>0_2|0_3|0_4|0_5|0_6</FOOTER_CMS>
+<FOOTER_CMS_TEXT_1></FOOTER_CMS_TEXT_1>
+<FOOTER_CMS_TEXT_2></FOOTER_CMS_TEXT_2>
+<FOOTER_CMS_TEXT_3></FOOTER_CMS_TEXT_3>
+<FOOTER_CMS_TEXT_4></FOOTER_CMS_TEXT_4>
+<FOOTER_CMS_TEXT_5></FOOTER_CMS_TEXT_5>
+<FOOTER_CMS_TEXT_6></FOOTER_CMS_TEXT_6>
+<FOOTER_CMS_TEXT_7></FOOTER_CMS_TEXT_7>
+<FOOTER_CMS_TEXT_8></FOOTER_CMS_TEXT_8>
+<FOOTER_CMS_TEXT_9></FOOTER_CMS_TEXT_9>
+<FOOTER_CONTACT>1</FOOTER_CONTACT>
+<FOOTER_NEW-PRODUCTS>1</FOOTER_NEW-PRODUCTS>
+<FOOTER_POWEREDBY>0</FOOTER_POWEREDBY>
+<FOOTER_PRICE-DROP>1</FOOTER_PRICE-DROP>
+<FOOTER_SITEMAP>1</FOOTER_SITEMAP>
+</config>
+</module>
+<module name="leosliderlayer" action="disable"><config>
+<LEOSLIDERLAYER_GROUP_DE>2</LEOSLIDERLAYER_GROUP_DE>
+</config>
+</module>
+<module name="blockleoblogs" action="disable"><config>
+<BLEOBLOGS_COL>3</BLEOBLOGS_COL>
+<BLEOBLOGS_HEIGHT>170</BLEOBLOGS_HEIGHT>
+<BLEOBLOGS_INTV>8000</BLEOBLOGS_INTV>
+<BLEOBLOGS_NBR>6</BLEOBLOGS_NBR>
+<BLEOBLOGS_PAGE>3</BLEOBLOGS_PAGE>
+<BLEOBLOGS_SAUT>0</BLEOBLOGS_SAUT>
+<BLEOBLOGS_SCAT>0</BLEOBLOGS_SCAT>
+<BLEOBLOGS_SCATE>1</BLEOBLOGS_SCATE>
+<BLEOBLOGS_SCOUN>0</BLEOBLOGS_SCOUN>
+<BLEOBLOGS_SCRE>1</BLEOBLOGS_SCRE>
+<BLEOBLOGS_SDES>1</BLEOBLOGS_SDES>
+<BLEOBLOGS_SHITS>0</BLEOBLOGS_SHITS>
+<BLEOBLOGS_SHOW>0</BLEOBLOGS_SHOW>
+<BLEOBLOGS_SIMA>1</BLEOBLOGS_SIMA>
+<BLEOBLOGS_STITLE>1</BLEOBLOGS_STITLE>
+<BLEOBLOGS_WIDTH>370</BLEOBLOGS_WIDTH>
+</config>
+</module>
+<module name="leoblog" action="disable"><config>
+<LEOBLOG_CATEORY_MENU>1</LEOBLOG_CATEORY_MENU>
+</config>
+</module>
+<module name="ptsblockmanufacturer" action="disable"><config>
+<PTS_MANUF_ACTIVE_PLAY>0</PTS_MANUF_ACTIVE_PLAY>
+<PTS_MANUF_ACTIVE_TITLE>1</PTS_MANUF_ACTIVE_TITLE>
+<PTS_MANUF_COL>6</PTS_MANUF_COL>
+<PTS_MANUF_INTV>8000</PTS_MANUF_INTV>
+<PTS_MANUF_MODULE_TITLE>Product Brands</PTS_MANUF_MODULE_TITLE>
+<PTS_MANUF_PAGE>6</PTS_MANUF_PAGE>
+<PTS_MANUF_TYPE_IMG>logo_brand</PTS_MANUF_TYPE_IMG>
+</config>
+</module>
+<module name="ptsblockproducttabs" action="disable"><config>
+<PTSPROTAB_ALL>1</PTSPROTAB_ALL>
+<PTSPROTAB_BESTSELLER>1</PTSPROTAB_BESTSELLER>
+<PTSPROTAB_COLUMNS_PAGE>4</PTSPROTAB_COLUMNS_PAGE>
+<PTSPROTAB_FEATURED>1</PTSPROTAB_FEATURED>
+<PTSPROTAB_INTERVAL>8000</PTSPROTAB_INTERVAL>
+<PTSPROTAB_ITEMS_PAGE>8</PTSPROTAB_ITEMS_PAGE>
+<PTSPROTAB_ITEMS_TAB>16</PTSPROTAB_ITEMS_TAB>
+<PTSPROTAB_NEWARRIALS>0</PTSPROTAB_NEWARRIALS>
+<PTSPROTAB_SPECIALS_DISPLAY>1</PTSPROTAB_SPECIALS_DISPLAY>
+<PTSPROTAB_TOPRATING>0</PTSPROTAB_TOPRATING>
+</config>
+</module>
+<module name="ptsmaplocator" action="disable"><config>
+<PTSMAPL_DESCRIPTION><![CDATA[ <div class="contact-info">
+<div class="service">
+<h4 class="title">Main store</h4>
+<ul>
+<li>No 11 Sky Tower, Street<br /> name, Las Vegas, USA</li>
+<li>Tel: 012 345 6789</li>
+<li>Fax: 012 235 7588</li>
+<li><a href="#">support@yourstore.com</a></li>
+</ul>
+</div>
+<div class="social"><a class="google-plus" title="" href="#" data-original-title="Google-plus" data-placement="top" data-toggle="tooltip"><em class="icon-google-plus">&nbsp; </em> </a> <a class="facebook" title="" href="#" data-original-title="Facebook" data-placement="top" data-toggle="tooltip"> <em class="icon-facebook">&nbsp; </em> </a> <a class="twitter" title="" href="#" data-original-title="Twitter" data-placement="top" data-toggle="tooltip"> <em class="icon-twitter">&nbsp; </em> </a><a class="rss" title="" href="#" data-original-title="Rss" data-placement="top" data-toggle="tooltip"> <em class="icon-rss">&nbsp; </em> </a><a class="pinterest" title="" href="#" data-original-title="Pinterest" data-placement="top" data-toggle="tooltip"> <em class="icon-pinterest">&nbsp; </em> </a></div>
+</div> ]]></PTSMAPL_DESCRIPTION>
+<PTSMAPL_HEIGHT>500</PTSMAPL_HEIGHT>
+</config>
+</module>
+</modules>

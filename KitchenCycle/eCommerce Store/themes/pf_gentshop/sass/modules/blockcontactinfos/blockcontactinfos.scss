@@ -1,0 +1,14 @@
+@import "compass";
+@import '../../_theme_variables';
+
+.contactinfos {
+	ul {
+		li{
+			i {
+				 color: #ccc;
+				 font-size:  $font-size-base + 2;
+				  @include rtl-margin-right(8px);
+			}
+		}
+	}
+}

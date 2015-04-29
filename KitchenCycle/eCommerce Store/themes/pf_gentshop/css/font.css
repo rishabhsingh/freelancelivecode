@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'pluto';
+  src: url("../font/plutosans/PlutoSansBlack.eot?") format("eot"), url("../font/plutosans/PlutoSansBlack.otf") format("opentype"), url("../font/plutosans/PlutoSansBlack.woff") format("woff"), url("../font/plutosans/PlutoSansBlack.ttf") format("truetype"), url("../font/plutosans/PlutoSansBlack.svg#pluto") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'pluto';
+  src: url("../font/plutosans/PlutoSansBold.eot?") format("eot"), url("../font/plutosans/PlutoSansBold.otf") format("opentype"), url("../font/plutosans/PlutoSansBold.woff") format("woff"), url("../font/plutosans/PlutoSansBold.ttf") format("truetype"), url("../font/plutosans/PlutoSansBold.svg#pluto") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'pluto';
+  src: url("../font/plutosans/PlutoSansHeavy.eot?") format("eot"), url("../font/plutosans/PlutoSansHeavy.otf") format("opentype"), url("../font/plutosans/PlutoSansHeavy.woff") format("woff"), url("../font/plutosans/PlutoSansHeavy.ttf") format("truetype"), url("../font/plutosans/PlutoSansHeavy.svg#pluto") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'pluto';
+  src: url("../font/plutosans/PlutoSansRegular.eot?") format("eot"), url("../font/plutosans/PlutoSansRegular.otf") format("opentype"), url("../font/plutosans/PlutoSansRegular.woff") format("woff"), url("../font/plutosans/PlutoSansRegular.ttf") format("truetype"), url("../font/plutosans/PlutoSansRegular.svg#PlutoSansRegular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'pluto';
+  src: url("../font/plutosans/PlutoSansLight.eot?") format("eot"), url("../font/plutosans/PlutoSansLight.otf") format("opentype"), url("../font/plutosans/PlutoSansLight.woff") format("woff"), url("../font/plutosans/PlutoSansLight.ttf") format("truetype"), url("../font/plutosans/PlutoSansLight.svg#PlutoSansLight") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'pluto';
+  src: url("../font/plutosans/PlutoSansExtraLight.eot?") format("eot"), url("../font/plutosans/PlutoSansExtraLight.otf") format("opentype"), url("../font/plutosans/PlutoSansExtraLight.woff") format("woff"), url("../font/plutosans/PlutoSansExtraLight.ttf") format("truetype"), url("../font/plutosans/PlutoSansExtraLight.svg#pluto") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'bebas_neue';
+  src: url("../font/bebasneue/bebasneue_bold-webfont.eot");
+  src: url("../font/bebasneue/bebasneue_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/bebasneue/bebasneue_bold-webfont.woff") format("woff"), url("../font/bebasneue/bebasneue_bold-webfont.ttf") format("truetype"), url("../font/bebasneue/bebasneue_bold-webfont.svg#bebas_neue") format("svg");
+  font-weight: 700;
+  font-style: normal; }

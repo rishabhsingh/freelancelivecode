@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<themeeditor>
+		 
+	<author>leotheme</author>
+	<name>Live Theme Editor</name>	
+	<layout>
+		
+		<item>
+			<block>layout</block>
+			<name>layout</name>
+			<label>Layout</label>
+			<default>fullwidth</default>
+			<type>select</type>
+			<desc>Please Enter Your Content Here</desc>
+			<option>
+				 <label>Full Width</label>
+				 <value>fullwidth</value>
+			</option> 
+			<option>
+				 <label>Boxed Large</label>
+				 <value>boxed-lg</value>
+			</option>
+			<option>
+				 <label>Boxed Medium</label>
+				 <value>boxed-md</value>
+			</option> 
+			 
+		</item>
+
+		<item>
+		   <block>logotype</block>
+		   <name>logotype</name>
+		   <label>Logo Type</label>
+		   <default>logo-theme</default>
+		   <type>select</type>
+		   <desc>Please Enter Your Content Here</desc>
+		   <option>
+			     <label>Logo In Theme</label>
+			     <value>logo-theme</value>
+ 
+		   </option> 
+		   <option>
+			     <value>logo-inpresta</value>
+			     <label>Logo Prestahop</label>
+		   </option> 
+
+		</item>
+
+		<item>
+			<name>copyright</name>
+			<block>copyright</block>
+			<label>Store Copyright</label>
+			<default>Your Store Copyright Here</default>
+			<type>textarea</type>
+			<desc>Please Enter Your Content Here</desc>
+			<autoload_rte>true</autoload_rte>
+			<option>
+				 <label>Enable</label>
+				 <value>1</value>
+			</option> 
+			<option>
+				 <label>Disable</label>
+				 <value>0</value>
+			</option>
+		</item>
+
+		<item>
+			<name>paypal_setting</name>
+			<block>paypal_setting</block>
+			<label>Enable paypal</label>
+ 			<default>0</default>
+			<type>select</type>
+			<desc>Dispaly paypal in copyright</desc>
+			<option>
+				<value>1</value>
+				<label>Enable</label>
+			</option>
+ 			<option>
+ 				<value>0</value>
+				<label>Disable</label>
+				 
+			</option>
+		</item>
+
+		<item>
+			<name>product_layout</name>
+			<block>product_layout</block>
+			<label>Product Layout In Listing</label>
+ 			<default>default</default>
+			<type>select</type>
+			<desc>Support Multiple Look And Feel Of Product In The Listing</desc>
+			<option>
+				 <label>Default</label>
+				 <value>default</value>
+			</option>
+ 			<option>
+				 <label>Swap Image</label>
+				 <value>swap</value>
+			</option>
+			<option>
+				<label>Gallery Image</label>
+				<value>gallery</value>
+			</option>
+ 
+		</item>
+
+
+		<item>
+			<name>products_itemrow</name>
+			<block>products_itemrow</block>
+			<label>Number Items On Row Of Products Listing</label>
+ 
+			<type>select</type>
+			<desc>Enter number Product Items Show In Per Row</desc>
+			<option>
+				 <label>1 Item</label>
+				 <value>1</value>
+			</option> 
+			<option>
+				 <label>2 Items</label>
+				 <value>2</value>
+			</option>
+			<option>
+				 <label>3 Items</label>
+				 <value>3</value>
+			</option>
+			<option>
+				 <label>4 Items</label>
+				 <value>4</value>
+			</option>
+			<option>
+				 <label>4 Items</label>
+				 <value>4</value>
+			</option>
+			<option>
+				 <label>6 Items</label>
+				 <value>6</value>
+			</option>
+		</item>
+
+		<item>
+			<name>enable_phtml</name>
+			<block>enable_phtml</block>
+			<label>Enable Product Custom HTML Tab</label>
+			<desc>Whethere to enable html content in product detail</desc>
+			<type>switch</type>
+			<default>0</default>
+		 	<option>
+				 <label>Enable</label>
+				 <value>1</value>
+			</option> 
+			<option>
+				 <label>Disable</label>
+				 <value>0</value>
+			</option>
+		</item>
+
+		<item>
+			<name>phtmltab</name>
+			<block>phtmltab</block>
+			<label>Custom Tab Title</label>
+			<default>Custom Tab</default>
+			<type>text</type>
+			<desc>This text will be show as tab button</desc>
+			<lang>true</lang>
+			<autoload_rte>true</autoload_rte>
+			<option>
+				 <label>Enable</label>
+				 <value>1</value>
+			</option> 
+			<option>
+				 <label>Disable</label>
+				 <value>0</value>
+			</option>
+		</item>
+
+		<item>
+			<name>producthtml</name>
+			<block>producthtml</block>
+			<label>Custom Product Info HTML</label>
+			<default>Your Store Copyright Here</default>
+			<type>textarea</type>
+			<desc>Please Enter Your Content Here To Display On Product Detail Page</desc>
+			<lang>true</lang>
+			<autoload_rte>true</autoload_rte>
+			<option>
+				 <label>Enable</label>
+				 <value>1</value>
+			</option> 
+			<option>
+				 <label>Disable</label>
+				 <value>0</value>
+			</option>
+		</item>
+
+		<item>
+			<name>product_accrow</name>
+			<block>product_accrow</block>
+			<label>Product Accessories Item Per Row</label>
+ 
+			<type>select</type>
+			<desc>Product Accessories Item Per Row</desc>
+			<option>
+				 <label>1 Item</label>
+				 <value>1</value>
+			</option> 
+			<option>
+				 <label>2 Items</label>
+				 <value>2</value>
+			</option>
+			<option>
+				 <label>3 Items</label>
+				 <value>3</value>
+			</option>
+			<option>
+				 <label>4 Items</label>
+				 <value>4</value>
+			</option>
+			<option>
+				 <label>4 Items</label>
+				 <value>4</value>
+			</option>
+			<option>
+				 <label>6 Items</label>
+				 <value>6</value>
+			</option>
+		</item>
+
+	</layout>
+</themeeditor>

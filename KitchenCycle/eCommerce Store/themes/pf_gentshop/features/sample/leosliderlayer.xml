@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module><config>
+<LEOSLIDERLAYER_GROUP_DE>2</LEOSLIDERLAYER_GROUP_DE>
+</config>
+<tables>
+<table>leosliderlayer_groups</table>
+<table>leosliderlayer_slides</table>
+<table>leosliderlayer_slides_lang</table>
+</tables>
+
+<queries></queries>
+
+</module>

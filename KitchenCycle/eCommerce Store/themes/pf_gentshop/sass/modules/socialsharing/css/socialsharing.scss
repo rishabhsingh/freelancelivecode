@@ -1,0 +1,10 @@
+@import "compass";
+@import "theme_variables";
+
+.socialsharing_product button {
+	background-color: #fff;
+	color: $gray-darker;
+	padding: 7px 4px;
+	border-color: $border-color;
+	font-size: 11px;
+}  

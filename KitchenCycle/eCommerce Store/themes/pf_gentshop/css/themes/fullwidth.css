@@ -1,0 +1,167 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+#pts-showcase .col-xs-1, #pts-showcase .col-sm-1, #pts-showcase .col-md-1, #pts-showcase .col-lg-1, #pts-showcase .col-xs-2, #pts-showcase .col-sm-2, #pts-showcase .col-md-2, #pts-showcase .col-lg-2, #pts-showcase .col-xs-3, #pts-showcase .col-sm-3, #pts-showcase .col-md-3, #pts-showcase .col-lg-3, #pts-showcase .col-xs-4, #pts-showcase .col-sm-4, #pts-showcase .col-md-4, #pts-showcase .col-lg-4, #pts-showcase .col-xs-5, #pts-showcase .col-sm-5, #pts-showcase .col-md-5, #pts-showcase .col-lg-5, #pts-showcase .col-xs-6, #pts-showcase .col-sm-6, #pts-showcase .col-md-6, #pts-showcase .col-lg-6, #pts-showcase .col-xs-7, #pts-showcase .col-sm-7, #pts-showcase .col-md-7, #pts-showcase .col-lg-7, #pts-showcase .col-xs-8, #pts-showcase .col-sm-8, #pts-showcase .col-md-8, #pts-showcase .col-lg-8, #pts-showcase .col-xs-9, #pts-showcase .col-sm-9, #pts-showcase .col-md-9, #pts-showcase .col-lg-9, #pts-showcase .col-xs-10, #pts-showcase .col-sm-10, #pts-showcase .col-md-10, #pts-showcase .col-lg-10, #pts-showcase .col-xs-11, #pts-showcase .col-sm-11, #pts-showcase .col-md-11, #pts-showcase .col-lg-11, #pts-showcase .col-xs-12, #pts-showcase .col-sm-12, #pts-showcase .col-md-12, #pts-showcase .col-lg-12, #columns .col-xs-1, #columns .col-sm-1, #columns .col-md-1, #columns .col-lg-1, #columns .col-xs-2, #columns .col-sm-2, #columns .col-md-2, #columns .col-lg-2, #columns .col-xs-3, #columns .col-sm-3, #columns .col-md-3, #columns .col-lg-3, #columns .col-xs-4, #columns .col-sm-4, #columns .col-md-4, #columns .col-lg-4, #columns .col-xs-5, #columns .col-sm-5, #columns .col-md-5, #columns .col-lg-5, #columns .col-xs-6, #columns .col-sm-6, #columns .col-md-6, #columns .col-lg-6, #columns .col-xs-7, #columns .col-sm-7, #columns .col-md-7, #columns .col-lg-7, #columns .col-xs-8, #columns .col-sm-8, #columns .col-md-8, #columns .col-lg-8, #columns .col-xs-9, #columns .col-sm-9, #columns .col-md-9, #columns .col-lg-9, #columns .col-xs-10, #columns .col-sm-10, #columns .col-md-10, #columns .col-lg-10, #columns .col-xs-11, #columns .col-sm-11, #columns .col-md-11, #columns .col-lg-11, #columns .col-xs-12, #columns .col-sm-12, #columns .col-md-12, #columns .col-lg-12, #top_column .col-xs-1, #top_column .col-sm-1, #top_column .col-md-1, #top_column .col-lg-1, #top_column .col-xs-2, #top_column .col-sm-2, #top_column .col-md-2, #top_column .col-lg-2, #top_column .col-xs-3, #top_column .col-sm-3, #top_column .col-md-3, #top_column .col-lg-3, #top_column .col-xs-4, #top_column .col-sm-4, #top_column .col-md-4, #top_column .col-lg-4, #top_column .col-xs-5, #top_column .col-sm-5, #top_column .col-md-5, #top_column .col-lg-5, #top_column .col-xs-6, #top_column .col-sm-6, #top_column .col-md-6, #top_column .col-lg-6, #top_column .col-xs-7, #top_column .col-sm-7, #top_column .col-md-7, #top_column .col-lg-7, #top_column .col-xs-8, #top_column .col-sm-8, #top_column .col-md-8, #top_column .col-lg-8, #top_column .col-xs-9, #top_column .col-sm-9, #top_column .col-md-9, #top_column .col-lg-9, #top_column .col-xs-10, #top_column .col-sm-10, #top_column .col-md-10, #top_column .col-lg-10, #top_column .col-xs-11, #top_column .col-sm-11, #top_column .col-md-11, #top_column .col-lg-11, #top_column .col-xs-12, #top_column .col-sm-12, #top_column .col-md-12, #top_column .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0; }
+#pts-showcase .row, #columns .row, #top_column .row {
+  margin: 0; }
+
+.topbar-v2 .container, .mainnav-v2 .container {
+  padding-left: 40px;
+  padding-right: 20px; }
+  @media (min-width: 768px) {
+    .topbar-v2 .container, .mainnav-v2 .container {
+      width: 100%; } }
+  @media (min-width: 992px) {
+    .topbar-v2 .container, .mainnav-v2 .container {
+      width: 100%; } }
+  @media (min-width: 1200px) {
+    .topbar-v2 .container, .mainnav-v2 .container {
+      width: 100%; } }
+
+body {
+  font-family: "pluto", sans-serif;
+  font-size: 13px;
+  line-height: 1.42857;
+  color: #777777;
+  background-color: #fff; }
+
+#columns .container, #pts-showcase .container, #top_column .container {
+  padding: 0; }
+  @media (min-width: 768px) {
+    #columns .container, #pts-showcase .container, #top_column .container {
+      width: 100%; } }
+  @media (min-width: 992px) {
+    #columns .container, #pts-showcase .container, #top_column .container {
+      width: 100%; } }
+  @media (min-width: 1200px) {
+    #columns .container, #pts-showcase .container, #top_column .container {
+      width: 100%; } }
+
+#search_block_top.nav-search.open {
+  top: 80px; }
+  @media (max-width: 991px) {
+    #search_block_top.nav-search.open {
+      top: 40px; } }
+
+.sidebar .sidebar-content {
+  margin-left: 40px;
+  margin-right: 40px; }
+
+#product .product-info {
+  margin-left: 8.33333%;
+  margin-right: 8.33333%;
+  overflow: hidden;
+  margin-bottom: 15px; }
+
+.product-detail > .product-info {
+  padding-left: 8.33333%;
+  padding-right: 8.33333%;
+  border-bottom: 1px solid #E5E5E5; }
+.product-detail .product-view {
+  margin-top: 50px; }
+
+.product-related .box-heading span:before, .product-related .box-heading span:after {
+  background: transparent; }
+
+.product-block .action {
+  padding: 30px; }
+  .product-block .action div.quick-view {
+    padding: 0 0 0 5px !important; }
+.product-block:hover .image {
+  outline-offset: -30px; }
+.product-block .product-meta {
+  padding: 15px 10px 0px 10px; }
+.product-block .price-quick {
+  position: absolute;
+  bottom: 90px;
+  left: 35px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s; }
+
+.navbar-collapse {
+  padding: 0; }
+
+ul.nav-theme:before, ul.nav-theme:after {
+  background: none; }
+
+.products-rows > .carousel-controls {
+  right: 60px; }
+
+.price {
+  font-size: 18px; }
+
+body.quickview .product-detail > .product-info {
+  padding-right: 0 !important; }
+
+.nav.nav-theme {
+  padding-bottom: 15px; }
+
+#pts-showcase .pts-custom, #top_column .pts-custom, #content .pts-custom {
+  padding: 0; }
+
+#ptsstaticontent_topcolumn .img1 .description .button {
+  display: block !important; }
+
+#identity #content, #contact #content, #addresses #content, #address #content, #my-account #content, #history #content, #cms #content, #authentication #content, #order-slip #content {
+  padding-left: 40px;
+  padding-right: 40px; }
+
+@media (max-width: 991px) {
+  #cavas_menu #pts-top-menu {
+    background: #fff; } }
+@media (max-width: 1199px) {
+  .mainnav-v2 .pts-megamenu .navbar-nav {
+    float: right !important; } }
+#thumbs_list {
+  padding-right: 30px; }
+
+#pts-promotion, #pavo-promotion {
+  padding: 0; }
+
+#pts-showcase .pts-custom, #top_column .pts-custom, #content .pts-custom {
+  margin: 0; }
+
+.product-label {
+  top: 30px;
+  left: 35px; }
+  .product-label.sale-box {
+    right: 35px; }
+
+.page-quickview.product-info {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+  .page-quickview.product-info #thumbs_list {
+    padding-right: 0; }
+
+.addresses-lists > div {
+  padding: 15px 0; }
+
+#header.hide-bar #search_block_top {
+  top: 60px !important; }
+
+.staticontent-item .effect .description .button {
+  display: block; }

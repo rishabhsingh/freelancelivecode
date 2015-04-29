@@ -1,0 +1,94 @@
+@import "compass";
+@import '../../_theme_variables';
+
+#blockleoblogstabs {
+	.block .title_block:before {
+		 content:"\f040";
+	}
+	.blog-viewmore {
+		margin: 10px 0;
+		overflow: hidden;
+		a {
+			font-style: italic;
+			&:after {
+				width: 20px;
+				display: inline-block;
+				float: right;
+				content: "\f178";
+				font: 12px/20px $font-icon;
+				margin-left: 7px;
+			}
+		}
+	}
+	
+}
+.blog_container {	
+	margin-bottom: 20px;
+	position: relative;
+	.blog-image {
+		margin-bottom: 15px;
+		position: relative;
+		img {
+			border-color: $theme-color-secondary;
+		}
+		> a:after {
+				width: 100%;
+				height: 100%;
+				content: "";
+				position: absolute;
+				top: 0;
+				@include rtl-left(0);
+				background: $theme-bg-secondary;
+				@include opacity(0);
+				@include transition(all .3s ease 0s);
+		}
+	}
+	.blog-title {
+		margin-top: 0;
+		text-transform: none;
+		height: 45px;
+		overflow: hidden;
+		a {
+			line-height: 22px;
+			font-weight: 600;
+			&:hover {
+			} 
+		}
+	}
+	.blog-meta {
+		font-size: $font-size-base - 1;
+		color: #999;
+		font-style: italic;
+		margin-bottom: 10px;
+		> span {
+			@include rtl-margin-right(8px);
+		}
+	}
+	.blog-shortinfo {
+		margin-bottom: 10px;
+	}
+	
+	.created{
+	  position: absolute;
+	  top:0px ;
+	  @include rtl-right(0);
+	  background: $yellow;
+	  @include size( 50px, 50px);
+	  text-align: center;
+	  color: $black;
+	  font-family: $font-arial;
+	  .day{
+	    font-size: 24px;
+	    display: block;    
+	    line-height: 18px;
+    	padding-top: 8px
+	  }
+	  .month{
+	    font-size: 10px;
+	    text-transform: uppercase;
+	  }
+	}
+
+
+
+}

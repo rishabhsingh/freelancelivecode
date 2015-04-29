@@ -1,0 +1,16 @@
+@import "compass";
+@import "theme_variables";
+#header_user_info {
+	padding:  7px 0;
+}
+.header_user_info {
+	 ul li {
+	 	 line-height: 25px;
+	 	 i {
+	 	 	@include rtl-margin-right(6px);
+	 	 }
+	 	 a:hover{
+	 	 	
+	 	 }
+	 }
+}

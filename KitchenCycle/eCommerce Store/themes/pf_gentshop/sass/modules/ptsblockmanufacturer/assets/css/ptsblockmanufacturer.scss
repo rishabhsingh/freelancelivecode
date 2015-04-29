@@ -1,0 +1,29 @@
+@import "compass";
+@import "theme_variables";
+
+/*******************************************************************
+					ptsblockmanufacturer
+********************************************************************/
+.ptsblockmanufacturer{
+	@include rtl-padding-right(0);
+	overflow: hidden;
+
+	&.block .title_block:before {
+		 content:"\f024";
+	}
+	
+	.carousel-inner {
+		.block_manuf {
+			a {
+				display: block;
+				text-align: center;
+				&:hover {
+				}
+			}
+		}
+	}
+	.block_content {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

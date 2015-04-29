@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module><config>
+<LEOBLOG_CATEORY_MENU>1</LEOBLOG_CATEORY_MENU>
+</config>
+<tables>
+<table>leoblogcat</table>
+<table>leoblogcat_lang</table>
+<table>leoblogcat_shop</table>
+<table>leoblog_blog</table>
+<table>leoblog_blog_lang</table>
+<table>leoblog_blog_shop</table>
+<table>leoblog_comment</table>
+</tables>
+
+<queries></queries>
+
+</module>

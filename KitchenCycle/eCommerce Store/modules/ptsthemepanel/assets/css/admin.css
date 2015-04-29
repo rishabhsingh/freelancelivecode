@@ -1,0 +1,40 @@
+
+#pts-dropdown-top{
+	position: relative;
+	display: table;
+	margin:9px;
+}
+#pts-dropdown-top > li{
+ 
+}
+#pts-dropdown-top > li > a{
+ 	color:#999999;
+}
+
+#pts-dropdown-top > li > a:hover{
+ 	color:#FFF;
+}
+
+ 
+.bs-docs-sidenav{
+	border:  solid 2px #31b0d5;  
+	padding:15px 10px!important;
+} 
+
+.bs-docs-sidenav a{
+	color: #666;
+	font-weight: bold;
+}
+
+.arrow_box {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #31b0d5 transparent transparent;
+	position: absolute;
+	top:80px;
+	left: -10px;
+
+}
+ 

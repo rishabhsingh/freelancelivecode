@@ -1,0 +1,75 @@
+$plutosans-path: "../font/plutosans";
+$bebasneue-path: "../font/bebasneue";
+//--------- Font plutosans -----------------------
+@font-face {
+    font-family: 'pluto';
+    src: url('#{$plutosans-path}/PlutoSansBlack.eot?') format('eot'), 
+         url('#{$plutosans-path}/PlutoSansBlack.otf')  format('opentype'),
+         url('#{$plutosans-path}/PlutoSansBlack.woff') format('woff'), 
+         url('#{$plutosans-path}/PlutoSansBlack.ttf')  format('truetype'),
+         url('#{$plutosans-path}/PlutoSansBlack.svg#pluto') format('svg');
+    font-weight: 900;
+    font-style: normal; 
+} 
+@font-face {
+    font-family: 'pluto';
+    src: url('#{$plutosans-path}/PlutoSansBold.eot?') format('eot'), 
+         url('#{$plutosans-path}/PlutoSansBold.otf')  format('opentype'),
+         url('#{$plutosans-path}/PlutoSansBold.woff') format('woff'), 
+         url('#{$plutosans-path}/PlutoSansBold.ttf')  format('truetype'),
+         url('#{$plutosans-path}/PlutoSansBold.svg#pluto') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pluto';
+   src: url('#{$plutosans-path}/PlutoSansHeavy.eot?') format('eot'), 
+         url('#{$plutosans-path}/PlutoSansHeavy.otf')  format('opentype'),
+         url('#{$plutosans-path}/PlutoSansHeavy.woff') format('woff'), 
+         url('#{$plutosans-path}/PlutoSansHeavy.ttf')  format('truetype'),
+         url('#{$plutosans-path}/PlutoSansHeavy.svg#pluto') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pluto';
+    src: url('#{$plutosans-path}/PlutoSansRegular.eot?') format('eot'), 
+         url('#{$plutosans-path}/PlutoSansRegular.otf')  format('opentype'),
+         url('#{$plutosans-path}/PlutoSansRegular.woff') format('woff'), 
+         url('#{$plutosans-path}/PlutoSansRegular.ttf')  format('truetype'),
+         url('#{$plutosans-path}/PlutoSansRegular.svg#PlutoSansRegular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pluto';
+    src: url('#{$plutosans-path}/PlutoSansLight.eot?') format('eot'), 
+         url('#{$plutosans-path}/PlutoSansLight.otf')  format('opentype'),
+         url('#{$plutosans-path}/PlutoSansLight.woff') format('woff'), 
+         url('#{$plutosans-path}/PlutoSansLight.ttf')  format('truetype'),
+         url('#{$plutosans-path}/PlutoSansLight.svg#PlutoSansLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pluto';
+    src: url('#{$plutosans-path}/PlutoSansExtraLight.eot?') format('eot'), 
+         url('#{$plutosans-path}/PlutoSansExtraLight.otf')  format('opentype'),
+         url('#{$plutosans-path}/PlutoSansExtraLight.woff') format('woff'), 
+         url('#{$plutosans-path}/PlutoSansExtraLight.ttf')  format('truetype'),
+         url('#{$plutosans-path}/PlutoSansExtraLight.svg#pluto') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+//----------- Font bebas neue ----------------------
+@font-face {
+    font-family: 'bebas_neue';
+    src: url('#{$bebasneue-path}/bebasneue_bold-webfont.eot');
+    src: url('#{$bebasneue-path}/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$bebasneue-path}/bebasneue_bold-webfont.woff') format('woff'),
+         url('#{$bebasneue-path}/bebasneue_bold-webfont.ttf') format('truetype'),
+         url('#{$bebasneue-path}/bebasneue_bold-webfont.svg#bebas_neue') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
